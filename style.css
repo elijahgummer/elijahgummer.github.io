@@ -97,7 +97,6 @@ html {
   justify-content: center;
   margin-top: 20px;
 }
-
 #header .content {
   display: flex;
   align-items: center;
@@ -105,7 +104,6 @@ html {
   flex-direction: column;
   width: 85%;
 }
-
 #header .header-text {
   font-size: 55px;
   font-weight: 800;
@@ -114,7 +112,6 @@ html {
   margin-top: 45px;
   width: 100%;
 }
-
 #header .landing-text {
   display: flex;
   align-items: center;
@@ -122,8 +119,6 @@ html {
   flex-direction: column;
   width:  50%;
 }
-
-
 #header .head-text {
   font-size: 18px;
   font-family: "Mulish", sans-serif;
@@ -131,14 +126,10 @@ html {
   width: 100%;
   margin: 10px 0px 10px 0px;
 }
-
 .iconsContact {
   margin: 15px;
   width: 100%;
 }
-
-
-
 .github,
 .linkedin {
   color: #ffffff;
@@ -147,12 +138,10 @@ html {
   margin: 5px;
   transition: all ease-in-out 0.5s;
 }
-
 .github:hover,
 .linkedin:hover {
   color: #147efb;
 }
-
 #header .image-container {
   display: flex;
   justify-content: center;
@@ -162,14 +151,12 @@ html {
   margin: 80px 0 0 0; 
   width: 50%;
 }
-
 .profile-pic {
   width: 100%;
   height: auto;
   margin-left: 100px;
   margin-top: 50px;
 }
-
 #header .container {
   display: flex;
   flex-direction: column;
@@ -179,57 +166,46 @@ html {
   /* Center content horizontally */
   margin-top: 20px;
 }
-
 #header .landing-main {
   display: flex;
   align-items: center;
   justify-content: center;
   width: 90%;
 }
-
 span {
   display: flex;
   gap: 1.3rem;
   margin: 2.5rem 0;
   cursor: pointer;
 }
-
 span a {
   font-size: 3rem;
   color: #ffffff;
 }
-
 #header .waving {
   width: 4rem;
   height: 4rem;
   margin-left: 10px;
 }
-
 .hand-text-content {
   display: flex;
   align-items: center;
 }
-
-
-
 #header .tech-list {
   display: flex;
   flex-direction: row;
   list-style: none;
   margin: 30px;
 }
-
 #header .tech-image {
   height: 45px;
   width: 110px;
   margin: 10px;
   transition: all ease-in-out 0.5s;
 }
-
 #header .tech-image:hover {
   transform: translateY(-0.7rem);
 }
-
 #header .stack-container {
   display: flex;
   align-items: center;
@@ -239,7 +215,6 @@ span a {
   margin-left: 15px;
   padding-left: 0;
 }
-
 #header .stack-container p {
   margin-right: 1.5rem;
   padding-right: 2rem;
@@ -248,7 +223,6 @@ span a {
   font-weight: 600;
   color: #ffffff;
 }
-
 #header .tech-stack-header {
   font-family: "Mulish", sans-serif;
   font-size: 17px;
@@ -257,9 +231,7 @@ span a {
   margin-left: 0;
   color: #f9f9f9;
 }
-
 /* ABOUT PAGE STYLING */
-
 #about .container {
   display: flex;
   align-items: center;
@@ -270,14 +242,12 @@ span a {
   padding: 20px;
   z-index: -2;
 }
-
 #about .content-container {
   display: flex;
   align-items: center;
   justify-content: space-between;
   width: 80%;
 }
-
 #about .image-container {
   position: relative;
   width: 100%;
@@ -290,14 +260,12 @@ span a {
   border-radius: 20px;
   overflow: hidden;
 }
-
 #about .box {
   display: flex;
   align-items: center;
   justify-content: center;
   padding: 40px 15px 40px 15px;
 }
-
 #about .image-container::before {
   content: "";
   position: absolute;
@@ -307,7 +275,6 @@ span a {
   animation: rotate 7s linear infinite;
   z-index: 1;
 }
-
 #about .image-container::after {
   content: "";
   position: absolute;
@@ -316,7 +283,6 @@ span a {
   border-radius: 16px;
   z-index: 1;
 }
-
 @keyframes rotate {
   from {
     transform: rotate(0deg);
@@ -325,7 +291,6 @@ span a {
     transform: rotate(360deg);
   }
 }
-
 #about .container .content-container .image-container .box .user-image {
   width: 90%;
   height: 90%;
@@ -333,14 +298,12 @@ span a {
   position: relative;
   z-index: 3;
 }
-
 #about .header {
   color: #147efb;
   font-size: 17px;
   margin: 20px;
   font-weight: 800;
 }
-
 #about .sub-header {
   color: #ffffff;
   font-size: 25px;
@@ -349,7 +312,6 @@ span a {
   font-weight: 800;
   line-height: 1.4;
 }
-
 #about .content,
 .sub-content {
   color: #767676;
@@ -357,24 +319,19 @@ span a {
   font-size: 17px;
   margin: 20px 20px 35px 20px;
 }
-
 #about .content-box {
   margin: 45px 0 45px 20px;
 }
-
 /* PROJECTS STYLING */
-
 #projects .container {
   margin-top: 30px;
 }
-
 #projects .header {
   color: #147efb;
   font-size: 17px;
   margin: 20px;
   font-weight: 800;
 }
-
 #projects .sub-header {
   color: #ffffff;
   font-size: 23px;
@@ -383,7 +340,6 @@ span a {
   font-weight: 800;
   line-height: 1.4;
 }
-
 #projects .container .content-container {
   display: flex;
   align-items: center;
@@ -391,7 +347,6 @@ span a {
   flex-direction: column;
   flex-wrap: wrap;
 }
-
 #projects .container .content-container .card {
   display: flex;
   align-items: center;
@@ -404,21 +359,18 @@ span a {
   padding: 20px;
   margin: 40px;
 }
-
 #projects .card h5 {
   color: white;
   font-size: 20px;
   font-weight: 800;
   margin: 20px;
 }
-
 #projects .card p {
   color: #ffffff80;
   font-size: 17px;
   font-weight: 500;
   margin: 10px;
 }
-
 #projects .card .tech-stack ul {
   display: flex;
   align-items: center;
@@ -427,13 +379,11 @@ span a {
   list-style: none;
   flex-wrap: wrap;
 }
-
 #projects .card .tech-stack ul li {
   font-weight: 800;
   color: #f9f9f9;
   margin: 10px;
 }
-
 #projects .container .content-container .card .image-container {
   display: flex;
   justify-content: center;
@@ -441,7 +391,6 @@ span a {
   width: 46%;
   margin: 20px;
 }
-
 #projects .container .content-container .card .image-container .box {
   width: 100%;
   height: 330px;
@@ -450,7 +399,6 @@ span a {
   border-radius: 18px;
   transition: ease-in-out 8s;
 }
-
 #projects .container .content-container .card .image-container .box.box1 {
   background: url(images/locksmith.png);
   background-size: cover;
@@ -459,11 +407,9 @@ span a {
   background: url(images/moneyMag.png);
   background-size: cover;
 }
-
 #projects .container .content-container .card .image-container .box:hover {
   background-position: bottom;
 }
-
 #projects .container .content-container .card .content {
   flex: 1;
   color: white;
@@ -471,7 +417,6 @@ span a {
   margin: 20px;
   width: 60%;
 }
-
 #projects .container .card .teck-stack {
   display: flex;
   flex-direction: row;
