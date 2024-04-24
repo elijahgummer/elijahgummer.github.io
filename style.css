@@ -5,34 +5,27 @@
   box-sizing: border-box;
   transition: all ease-in-out 0.2s;
 }
-
 body {
   background-color: #121212;
   overflow-x: hidden;
 }
-
 html {
   scroll-behavior: smooth;
 }
-
 /* Custom scroll bar */
 ::-webkit-scrollbar {
   width: 10px;
 }
-
 ::-webkit-scrollbar-track {
   background: #1e1e1e;
 }
-
 ::-webkit-scrollbar-thumb {
   background: #bcbcbcc0;
 }
-
 ::selection {
   background: #147efb;
   color: #ffffff;
 }
-
 .navbar {
   font-size: 1.7rem;
   width: 100%;
@@ -48,13 +41,11 @@ html {
   align-items: center;
   z-index: 10;
 }
-
 .navbar ul {
   display: flex;
   list-style: none;
   gap: 2rem;
 }
-
 .navbar ul a {
   color: #ffffff;
   text-decoration: none;
@@ -63,51 +54,41 @@ html {
   transition: all 0.23s;
   margin: -5px;
 }
-
 .navbar ul li {
   display: flex;
   align-items: center;
 }
-
 .navbar .menu-list {
   display: inline-flex;
 }
-
 .menu-list li {
   list-style: none;
 }
-
 .menu-list li a:hover {
   color: #147efb;
 }
-
 .icon {
   color: #ffffff;
   font-size: 24px;
   cursor: pointer;
   display: none;
 }
-
 .icon:hover {
   color: #147efb;
   transition: all 0.3s;
 }
-
 .menu-list .cancel-btn {
   position: absolute;
   right: 30px;
   top: 20px;
 }
-
 .logo {
   color: #ffffff;
   font-size: 20px;
   cursor: pointer;
   font-weight: 800;
 }
-
 /* header Page */
-
 #header .container {
   display: flex;
   flex-wrap: wrap;
@@ -474,8 +455,8 @@ span a {
   background: url(images/locksmith.png);
   background-size: cover;
 }
-#projects .container .content-container .card .image-container .box.box1 {
-  background: url(images/locksmith.png);
+#projects .container .content-container .card .image-container .box.box2 {
+  background: url(images/moneyMag.png);
   background-size: cover;
 }
 
