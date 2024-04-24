@@ -422,7 +422,6 @@ span a {
   flex-direction: row;
   width: 50%;
 }
-
 #projects .container .card .demo-links ul {
   display: flex;
   align-items: center;
@@ -431,29 +430,23 @@ span a {
   list-style: none;
   margin: 30px;
 }
-
 #projects .container .card .demo-links ul li {
   font-weight: 500;
   color: #f9f9f9;
   margin: 5px;
   font-size: 17px;
 }
-
 #projects .container .card .demo-links ul li i {
   margin: 5px;
   font-size: 18px;
 }
-
 #projects .container .card .demo-links ul li i:hover {
   color: #147efb;
 }
-
 #projects .container .card .demo-links ul li:hover {
   color: #147efb;
 }
-
 /* CONTACT AREA STYLING */
-
 #contact .container {
   display: flex;
   align-items: center;
@@ -463,7 +456,6 @@ span a {
   width: 100%;
   height: 500px;
 }
-
 #contact .content-container {
   display: flex;
   justify-content: center;
@@ -471,14 +463,12 @@ span a {
   flex-direction: column;
   width: 80%;
 }
-
 #contact .header {
   color: #147efb;
   font-size: 17px;
   margin: 20px;
   font-weight: 800;
 }
-
 #contact .sub-header {
   color: #ffffff;
   font-size: 25px;
@@ -487,17 +477,14 @@ span a {
   font-weight: 800;
   line-height: 1.4;
 }
-
 #contact .contact-card {
   display: flex;
   align-items: center;
   margin: 20px;
 }
-
 #contact .content-text {
   margin: 10px;
 }
-
 #contact .bubble {
   background-color: #ffffff;
   width: 3.3rem;
@@ -509,12 +496,10 @@ span a {
   border-radius: 50%;
   color: #147efb;
 }
-
 #contact .bubble i {
   color: #147efb;
   font-size: 25px;
 }
-
 #contact .email,
 .location {
   color: #ffffff;
@@ -522,7 +507,6 @@ span a {
   font-weight: 800;
   margin: 5px 0 5px 0;
 }
-
 #contact .email-name,
 .location-name {
   color: #767676;
@@ -530,33 +514,28 @@ span a {
   font-size: 17px;
   font-weight: 500;
 }
-
 #contact .contact-box {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: row;
 }
-
 /* FOOTER STYLING */
 .footer {
   background-color: #1e1e1e;
   padding: 50px 0;
   width: 100%;
 }
-
 .footer .footer-container {
   display: flex;
   align-items: center;
   justify-content: space-between;
   margin: 0 80px 0 80px;
 }
-
 .footer .header {
   color: #ffffff;
   font-size: 17px;
 }
-
 .footer .footer-social {
   display: flex;
   gap: 1rem;
@@ -564,48 +543,38 @@ span a {
   justify-content: center;
   margin-top: 1rem;
 }
-
 .footer .footer-social a i {
   color: #ffffff;
   transition: color ease-in-out 0.5s;
 }
-
 .footer .footer-social a i:hover {
   color: #147efb;
 }
-
 /* MOBILE RESPONSIVNESS */
-
 @media (max-width: 868px) {
   body.disabled {
     overflow: hidden;
   }
-
   .content {
     flex-direction: column;
     text-align: center;
     height: auto;
     gap: 3rem;
   }
-
   .profile-pic {
     width: 21rem;
     height: 21rem;
     margin: 0;
   }
-
   #header .landing-main {
     flex-direction: column-reverse;
   }
-
   .image-container {
     margin-bottom: 20px;
   }
-
   #header .header-text {
     font-size: 40px;
   }
-
   span.iconsContact {
     justify-content: center;
     margin-top: 2rem;
@@ -615,11 +584,9 @@ span a {
   .icon {
     display: block;
   }
-
   .icon.hide {
     display: none;
   }
-
   .navbar .menu-list {
     position: fixed;
     height: 100vh;
@@ -636,64 +603,51 @@ span a {
     background: #272727;
     transition: all 0.3s ease;
   }
-
   .navbar.show .menu-list {
     left: 0%;
   }
-
   .navbar .menu-list li {
     margin: 10px;
   }
-
   .navbar .menu-list li a {
     font-size: 23px;
     margin-left: -100%;
     transition: 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55);
   }
-
   .navbar.show .menu-list li a {
     margin-left: 0px;
   }
-
   #header .stack-container {
     position: initial;
     flex-direction: column;
   }
-
   #header .content {
     margin: 0;
   }
-
   #header .header-text {
     line-height: 1.5;
   }
-
   #header .content-align {
     display: flex;
     align-items: center;
     justify-content: center;
   }
-
   #header .waving {
     width: 3rem;
     height: 3rem;
   }
-
   #header .tech-list {
     flex-direction: column;
   }
-
   #header .stack-container {
     display: flex;
     align-items: center;
     justify-content: center;
     margin: 0;
   }
-
   #header .tech-image {
     margin-bottom: 30px;
   }
-
   #header .stack-container p {
     margin-right: 0;
     margin-bottom: 1rem;
@@ -702,7 +656,6 @@ span a {
     padding-right: 0;
     padding-bottom: 1rem;
   }
-
   #header .landing-text {
     display: flex;
     align-items: center;
@@ -710,23 +663,18 @@ span a {
     margin: 0;
     width: 90%;
   }
-
   /*ABOUT RESPONSIVE CODE */
-
   #about .container .content-container .image-container .box .user-image {
     width: 90%;
     height: 90%;
   }
-
   #about .image-container {
     margin: 45px;
     height: auto;
   }
-
   #about .box {
     padding: 25px 15px 25px 15px;
   }
-
   #about .container .content-container {
     display: flex;
     align-items: center;
@@ -734,7 +682,6 @@ span a {
     flex-direction: column;
     width: 100%;
   }
-
   #about .content-box {
     display: flex;
     align-items: center;
@@ -744,27 +691,21 @@ span a {
     width: 100%;
     margin: 10px;
   }
-
   #about .container {
     height: auto;
   }
-
   #about .sub-header {
     width: 100%;
     margin: 20px 0px 35px 0px;
   }
-
   /* PROJECTS RESPONSIVNESS */
-
   #projects .container {
     width: 100%;
   }
-
   #projects .sub-header {
     text-align: center;
     width: 90%;
   }
-
   #projects .card-container {
     display: flex;
     width: 90%;
@@ -772,7 +713,6 @@ span a {
     justify-content: center;
     flex-direction: column;
   }
-
   #projects .container .content-container .card {
     display: flex;
     align-items: center;
@@ -781,50 +721,40 @@ span a {
     flex-direction: column;
     height: auto;
   }
-
   #projects .container .content-container .card .content {
     width: 90%;
   }
-
   #projects .container .content-container .card .image-container {
     width: 90%;
     height: 50%;
   }
-
   /* CONTACT RESPONSIVNESS */
   #contact .container {
     height: auto;
   }
-
   #contact .sub-header {
     width: 100%;
   }
-
   #contact .container .content-container {
     align-items: center;
     justify-content: center;
     text-align: center;
     height: auto;
   }
-
   #contact .contact-box {
     flex-direction: column;
     margin: 20px;
   }
-
   #contact .contact-card {
     flex-direction: column;
   }
-
   .bubble {
     margin: 5px;
   }
-
   /* FOOTER RESPONSIVNESS */
   .footer {
     padding: 20px 0px 20px 0px;
   }
-
   .footer .container .footer-container {
     flex-direction: column;
     text-align: center;
