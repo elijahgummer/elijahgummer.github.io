@@ -7,7 +7,6 @@ menuBtn.onclick = () => {
   navbar.classList.add("show");
   menuBtn.classList.add("hide");
 };
-
 cancelBtn.onclick = () => {
   navbar.classList.remove("show");
   menuBtn.classList.remove("hide");
