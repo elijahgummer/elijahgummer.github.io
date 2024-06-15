@@ -430,13 +430,8 @@ span a {
   list-style: none;
   margin: 30px;
 }
-#projects .container .card .demo-links ul {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: row;
-  list-style: none;
-  margin: 30px;
+#projects .container .card .demo-links ul a {
+  text-decoration: none;
 }
 #projects .container .card .demo-links ul li {
   font-weight: 500;
