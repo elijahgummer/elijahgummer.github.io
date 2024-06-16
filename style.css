@@ -111,7 +111,7 @@ html {
   font-weight: 800;
   margin: 15px;
   color: #ffffff;
-  margin-top: 45px;
+  margin-top: 25px;
   width: 100%;
 }
 #header .landing-text {
@@ -570,6 +570,9 @@ span a {
     width: 21rem;
     height: 21rem;
     margin: 0;
+  }
+  #header {
+    height: auto;
   }
   #header .landing-main {
     flex-direction: column-reverse;
