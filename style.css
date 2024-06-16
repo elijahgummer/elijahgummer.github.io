@@ -155,7 +155,7 @@ html {
   width: 100%;
   height: auto;
   margin-left: 100px;
-  margin-top: 50px;
+  margin-top: 20px;
 }
 #header .container {
   display: flex;
@@ -214,7 +214,7 @@ span a {
   flex-wrap: wrap;
   margin-left: 15px;
   padding-left: 0;
-  margin-top: 120px;
+  margin-top: -50px;
 }
 #header .stack-container p {
   margin-right: 1.5rem;
