@@ -336,6 +336,24 @@ span a {
       linear-gradient(to bottom, rgba(128,128,128,0.07) 1px, transparent 1px);
   background-size: 24px 24px;
 }
+.dot-mask {
+  position: absolute;
+  inset: 0;
+  height: 100%;
+  width: 100%;
+  background-image: radial-gradient(#e5e7eb 1px, transparent 1px);
+  background-size: 16px 16px;
+  -webkit-mask-image: radial-gradient(
+    ellipse 50% 50% at 50% 50%,
+    #000 60%,
+    transparent 100%
+  );
+  mask-image: radial-gradient(
+    ellipse 50% 50% at 50% 50%,
+    #000 60%,
+    transparent 100%
+  );
+}
 #projects .container {
   margin-top: 30px;
 }
