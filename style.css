@@ -339,9 +339,9 @@ span a {
 .dot-mask {
   position: absolute;
   inset: 0;
-  height: 100%;
-  width: 100%;
-  margin-top: 1000px;
+  height: 1200px;
+  width: 1800px;
+  margin-top: 1600px;
   background-image: radial-gradient(#e5e7eb 1px, transparent 1px);
   background-size: 16px 16px;
   -webkit-mask-image: radial-gradient(
@@ -354,6 +354,7 @@ span a {
     #000 60%,
     transparent 100%
   );
+  z-index: -1;
 }
 #projects .container {
   margin-top: 30px;
