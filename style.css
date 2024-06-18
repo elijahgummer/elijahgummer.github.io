@@ -346,13 +346,13 @@ span a {
   background-size: 16px 16px;
   -webkit-mask-image: radial-gradient(
     ellipse 50% 50% at 50% 50%,
-    #000 70%,
+    #000 30%,
     rgba(0, 0, 0, 0.5) 85%,
     transparent 100%
   );
   mask-image: radial-gradient(
     ellipse 50% 50% at 50% 50%,
-    #000 70%,
+    #000 30%,
     rgba(0, 0, 0, 0.5) 85%,
     transparent 100%
   );
