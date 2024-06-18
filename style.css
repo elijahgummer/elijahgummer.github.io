@@ -592,9 +592,9 @@ span a {
     overflow: hidden;
   }
   .dot-mask {
-    height: 1200px;
-    width: 1800px;
-    margin-top: 1600px;
+    height: 1900px;
+    width: 600px;
+    margin-top: 2500px;
   }
   .content {
     flex-direction: column;
