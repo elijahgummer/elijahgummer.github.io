@@ -590,10 +590,11 @@ span a {
 @media (max-width: 868px) {
   body.disabled {
     overflow: hidden;
+    overflow-x: hidden;
   }
   .dot-mask {
     height: 1900px;
-    width: 600px;
+    width: 100%;
     margin-top: 2500px;
   }
   .content {
