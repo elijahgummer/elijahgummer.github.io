@@ -326,6 +326,9 @@ span a {
   margin: 45px 0 45px 20px;
 }
 /* PROJECTS STYLING */
+#projects {
+  overflow: hidden;
+}
 .grid {
   position: absolute;
   inset: 0;
@@ -339,7 +342,7 @@ span a {
 .dot-mask {
   position: absolute;
   inset: 0;
-  height: 1200px;
+  height: 1800px;
   width: 1800px;
   margin-top: 1600px;
   background-image: radial-gradient(#404347 1px, transparent 1px);
