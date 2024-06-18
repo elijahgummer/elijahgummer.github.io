@@ -591,6 +591,11 @@ span a {
   body.disabled {
     overflow: hidden;
   }
+  .dot-mask {
+    height: 1200px;
+    width: 1800px;
+    margin-top: 1600px;
+  }
   .content {
     flex-direction: column;
     text-align: center;
