@@ -345,20 +345,19 @@ span a {
   background-image: radial-gradient(#404347 1px, transparent 1px);
   background-size: 16px 16px;
   -webkit-mask-image: radial-gradient(
-    ellipse 50% 50% at 50% 50%,
-    #000 100%,
-    rgba(0, 0, 0, 0.5) 85%,
+    circle,
+    #000 60%,
+    rgba(0, 0, 0, 0.5) 75%,
     transparent 100%
   );
   mask-image: radial-gradient(
-    ellipse 50% 50% at 50% 50%,
-    #000 100%,
-    rgba(0, 0, 0, 0.5) 85%,
+    circle,
+    #000 60%,
+    rgba(0, 0, 0, 0.5) 75%,
     transparent 100%
   );
   z-index: -1;
 }
-
 #projects .container {
   margin-top: 30px;
 }
