@@ -346,16 +346,19 @@ span a {
   background-size: 16px 16px;
   -webkit-mask-image: radial-gradient(
     ellipse 50% 50% at 50% 50%,
-    #000 60%,
+    #000 70%,
+    rgba(0, 0, 0, 0.5) 85%,
     transparent 100%
   );
   mask-image: radial-gradient(
     ellipse 50% 50% at 50% 50%,
-    #000 60%,
+    #000 70%,
+    rgba(0, 0, 0, 0.5) 85%,
     transparent 100%
   );
   z-index: -1;
 }
+
 #projects .container {
   margin-top: 30px;
 }
