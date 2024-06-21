@@ -150,7 +150,7 @@ html {
   align-items: center;
   flex-grow: 1;
   flex-wrap: wrap;
-  margin: -100px 0 0 0; 
+  margin: 20px 0 0 0; 
   width: 50%;
 }
 .profile-pic {
