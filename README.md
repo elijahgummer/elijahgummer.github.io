@@ -11,6 +11,7 @@ This portfolio highlights my journey and expertise in web development with a cle
 - **Responsive Design**
 - **Interactive Elements**
 - **Project Showcase**
+- **Contact Me**
 
 ## 🌐 Live Demo
 
