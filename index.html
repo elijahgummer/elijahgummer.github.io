@@ -291,11 +291,29 @@
         </div>
       </div>
     </footer>
+     <!-- Include three.js first -->
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js" ></script>
+     <!-- Include Vanta.js after three.js -->
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/vanta/0.5.21/vanta.net.min.js" ></script>
     <script
       src="https://kit.fontawesome.com/e67d778e8a.js"
       crossorigin="anonymous"
       async></script>
 <script>
+    VANTA.NET({
+      el: "#header",
+      mouseControls: true,
+      touchControls: true,
+      gyroControls: false,
+      Height: 200.00,
+      minWidth: 200.00,
+      scale: 1.00,
+      scaleMobile: 1.00,
+      color: 0x147EFB,
+      backgroundColor: 0x121212,
+      maxDistance: 26.00,
+      spacing: 17.00
+    });
     document.addEventListener('DOMContentLoaded', function() {
       const navbar = document.querySelector(".navbar");
       const menuBtn = document.querySelector(".menu-btn");
