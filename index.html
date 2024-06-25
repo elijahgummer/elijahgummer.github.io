@@ -308,14 +308,30 @@ html {
         </div>
       </div>
     </footer>
-     <!-- Include three.js first -->
-     <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js" ></script>
-     <!-- Include Vanta.js after three.js -->
-     <script src="https://cdnjs.cloudflare.com/ajax/libs/vanta/0.5.21/vanta.net.min.js" ></script>
-    <script
-      src="https://kit.fontawesome.com/e67d778e8a.js"
-      crossorigin="anonymous"
-      async></script>
+  <!-- Inline Critical JS -->
+    <script>
+      document.addEventListener('DOMContentLoaded', function() {
+        const navbar = document.querySelector(".navbar");
+        const menuBtn = document.querySelector(".menu-btn");
+        const cancelBtn = document.querySelector(".cancel-btn");
+        const menuAtags = document.querySelectorAll("a");
+
+        menuBtn.onclick = () => {
+          navbar.classList.add("show");
+          menuBtn.classList.add("hide");
+        };
+        cancelBtn.onclick = () => {
+          navbar.classList.remove("show");
+          menuBtn.classList.remove("hide");
+        };
+        menuAtags.forEach((link) => {
+          link.onclick = () => {
+            navbar.classList.remove("show");
+            menuBtn.classList.remove("hide");
+          };
+        });
+      });
+    </script>
 <script>
 VANTA.NET({
   el: "#header",
@@ -332,6 +348,14 @@ VANTA.NET({
   spacing: 17.00
 });
 </script>
+    <script
+      src="https://kit.fontawesome.com/e67d778e8a.js"
+      crossorigin="anonymous"
+      async></script>
     <script src="script.js" async></script>
+     <!-- Include three.js first -->
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js" ></script>
+     <!-- Include Vanta.js after three.js -->
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/vanta/0.5.21/vanta.net.min.js" ></script>
   </body>
 </html>
