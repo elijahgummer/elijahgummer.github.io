@@ -291,48 +291,11 @@
         </div>
       </div>
     </footer>
-     <!-- Include three.js first -->
-     <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js" ></script>
-     <!-- Include Vanta.js after three.js -->
-     <script src="https://cdnjs.cloudflare.com/ajax/libs/vanta/0.5.21/vanta.net.min.js" ></script>
     <script
       src="https://kit.fontawesome.com/e67d778e8a.js"
       crossorigin="anonymous"
       async></script>
 <script>
-        // Function to initialize VANTA.NET
-        function initializeVanta() {
-            VANTA.NET({
-                el: "#header",
-                mouseControls: true,
-                touchControls: true,
-                gyroControls: false,
-                height: 200.00,
-                minWidth: 200.00,
-                scale: 1.00,
-                scaleMobile: 0.20,
-                color: 0x147EFB,
-                backgroundColor: 0x121212,
-                maxDistance: 26.00,
-                spacing: 17.00
-            });
-        }
-        // Check if the screen width is greater than 768 pixels (example threshold for mobile devices)
-        if (window.innerWidth > 768) {
-            initializeVanta();
-        }
-        // Optional: Add a resize event listener to handle dynamic resizing
-        window.addEventListener('resize', function() {
-            if (window.innerWidth > 768) {
-                if (!document.querySelector("#header canvas")) {
-                    initializeVanta();
-                }
-            } else {
-                if (document.querySelector("#header canvas")) {
-                    document.querySelector("#header canvas").remove();
-                }
-            }
-        });
     document.addEventListener('DOMContentLoaded', function() {
       const navbar = document.querySelector(".navbar");
       const menuBtn = document.querySelector(".menu-btn");
