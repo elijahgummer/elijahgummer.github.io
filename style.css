@@ -196,6 +196,11 @@ html {
   width: 100%;
   height: auto;
   margin-left: 100px;
+  transition: all ease-in-out 0.3s;
+}
+.profile-pic:hover {
+  transform: translateY(-5px);
+  box-shadow: rgba(0, 10px, 10px, 0.9); 
 }
 #header .container {
   display: flex;
