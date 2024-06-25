@@ -214,7 +214,7 @@ html {
   align-items: center;
   justify-content: center;
   width: 90%;
-  margin-top: -40px;
+  margin-top: 100px;
 }
 span {
   display: flex;
@@ -258,7 +258,7 @@ span a {
   flex-wrap: wrap;
   margin-left: 15px;
   padding-left: 0;
-  margin-top: 20px;
+  margin-top: 10px;
 }
 #header .stack-container p {
   margin-right: 1.5rem;
