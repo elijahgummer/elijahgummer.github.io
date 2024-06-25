@@ -193,8 +193,6 @@ html {
   width: 50%;
 }
 .profile-pic {
-  width: 100%;
-  height: auto;
   margin-left: 100px;
   transition: all ease-in-out 0.3s;
 }
