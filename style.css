@@ -133,7 +133,7 @@ html {
   width: 100%;
 }
 .github,
-.linkedin {
+.twitter {
   color: #ffffff;
   font-size: 32px;
   transition: color 0.5s;
@@ -141,7 +141,7 @@ html {
   transition: all ease-in-out 0.5s;
 }
 .github:hover,
-.linkedin:hover {
+.twitter:hover {
   color: #147efb;
 }
 #header .image-container {
