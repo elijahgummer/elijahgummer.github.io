@@ -481,7 +481,7 @@ span a {
   transition: ease-in-out 8s;
 }
 #projects .container .content-container .card .image-container .box.box1 {
-  background: url(images/locksmith.png);
+  background: url(images/locksmith.webp);
   background-size: cover;
 }
 #projects .container .content-container .card .image-container .box.box2 {
