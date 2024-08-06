@@ -500,7 +500,7 @@ span a {
 }
 #projects .card .tech-stack ul li {
   font-weight: 800;
-  color: ;
+  color: var(--text-second-color);
   margin: 10px;
 }
 #projects .container .content-container .card .image-container {
