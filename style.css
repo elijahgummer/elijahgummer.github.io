@@ -12,6 +12,7 @@
   --text-second-color: #f9f9f9;
   --container-color: #000000;
   --navbar-bg: #1e1e1e;
+  --card-bg: #1e1e1e;
 }
 .light-theme {
   --background-color: #f9f9f9;
@@ -19,6 +20,7 @@
   --text-second-color: #2d2e32;
   --container-color: #ffffff;
   --navbar-bg: #fff;
+  --card-bg: #eaeaea;
 }
 body {
   background-color: var(--background-color);
@@ -345,7 +347,7 @@ span a {
   justify-content: center;
   -ms-align-items: center;
   align-items: center;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: var(--card-bg);
   border-radius: 20px;
   overflow: hidden;
 }
