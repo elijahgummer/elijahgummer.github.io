@@ -478,7 +478,7 @@ span a {
   margin: 40px;
 }
 #projects .card h5 {
-  color: white;
+  color: var(--text-color);
   font-size: 20px;
   font-weight: 800;
   margin: 20px;
