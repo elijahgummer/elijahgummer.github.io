@@ -12,6 +12,9 @@
   --text-second-color: #f9f9f9;
   --navbar-bg: #1e1e1e;
 }
+.light-theme {
+  
+}
 body {
   background-color: var(--background-color);
   overflow-x: hidden;
