@@ -675,7 +675,7 @@ span a {
   margin-top: 1rem;
 }
 .footer .footer-social a i {
-  color: var(--text-color);
+  color: #fff;
   transition: color ease-in-out 0.5s;
 }
 .footer .footer-social a i:hover {
