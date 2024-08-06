@@ -8,6 +8,7 @@
 /* DEFAULT THEME VALUES */
 :root {
   --background-color: #121212;
+  --navbar-bg: #1e1e1e;
 }
 body {
   background-color: var(--background-color);
