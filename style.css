@@ -68,7 +68,33 @@ html {
   color: #147efb;
 }
 /* DARK AND LIGHT THEME TOGGLE */
-
+.appearance {
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+}
+.appearance svg path {
+  transform-origin: center;
+  transition: all 0.6s ease;
+  transform: translate3d(0, 0);
+  backface-visibility: hidden;
+}
+.appearance svg path.sun {
+  stroke: white;
+  transform: scale(0.4) rotate(60deg);
+  opacity: 0;
+}
+.appearance svg path.moon {
+  stroke: black;
+  opacity: 1;
+}
+.appearance.switch svg path.sun {
+  transform: scale(1) rotate(0);
+  opacity: 1;
+}
+.appearance.switch svg path.moon {
+  transform: scale(0.4) rotate(-60deg);
+  opacity: 0;
+}
 /* HAMBURGER  */
 .hamburger {
   cursor: pointer;
