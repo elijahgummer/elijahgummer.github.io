@@ -653,7 +653,7 @@ span a {
 }
 /* FOOTER STYLING */
 .footer {
-  background-color: #1e1e1e;
+  background-color: var(--background-color);
   padding: 50px 0;
   width: 100%;
 }
