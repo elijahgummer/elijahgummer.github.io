@@ -209,7 +209,7 @@ html {
 }
 .github,
 .twitter {
-  color: #ffffff;
+  color: var(--text-color);
   font-size: 32px;
   transition: color 0.5s;
   margin: 5px;
