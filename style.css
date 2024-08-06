@@ -583,7 +583,7 @@ span a {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  background-color: #000000;
+  background-color: var(--text-color);
   width: 100%;
   height: 500px;
 }
