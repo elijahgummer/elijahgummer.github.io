@@ -260,7 +260,7 @@ span {
 }
 span a {
   font-size: 3rem;
-  color: #ffffff;
+  color: var(--text-color);
 }
 #header .waving {
   width: 4rem;
