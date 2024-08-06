@@ -86,12 +86,12 @@ html {
   backface-visibility: hidden;
 }
 .appearance svg path.sun {
-  stroke: white;
+  stroke: var(--text-color);
   transform: scale(0.4) rotate(60deg);
   opacity: 0;
 }
 .appearance svg path.moon {
-  stroke: white;
+  stroke: var(--text-color);
   opacity: 1;
 }
 .appearance.switch svg path.sun {
