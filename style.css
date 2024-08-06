@@ -595,7 +595,7 @@ span a {
   font-weight: 800;
 }
 #contact .sub-header {
-  color: #ffffff;
+  color: var(--text-color);
   font-size: 25px;
   font-family: "Poppins", sans-serif;
   margin: 20px 20px 35px 20px;
