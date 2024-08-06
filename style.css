@@ -611,7 +611,7 @@ span a {
   margin: 10px;
 }
 #contact .bubble {
-  background-color: #ffffff;
+  background-color: var(--text-color);
   width: 3.3rem;
   display: flex;
   align-items: center;
