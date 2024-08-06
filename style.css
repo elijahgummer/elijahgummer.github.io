@@ -646,8 +646,6 @@ span a {
     overflow-x: hidden;
   }
   .grid {
-    position: absolute;
-    inset: 0;
     height: 2300px;
   }
   .dot-mask {
