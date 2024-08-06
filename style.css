@@ -512,7 +512,7 @@ span a {
 #projects .container .content-container .card .image-container .box {
   width: 100%;
   height: 330px;
-  background: #ffffff;
+  background: var(--text-color);
   background-position: top;
   border-radius: 18px;
   transition: ease-in-out 8s;
