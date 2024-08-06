@@ -31,7 +31,7 @@ html {
 }
 ::selection {
   background: #147efb;
-  color: #ffffff;
+  color: var(--text-color);
 }
 .navbar {
   font-size: 1.7rem;
