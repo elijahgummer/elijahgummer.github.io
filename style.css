@@ -369,7 +369,7 @@ span a {
 #about .image-container::after {
   content: "";
   position: absolute;
-  background: #1e1e1e;
+  background: var(--card-bg);
   inset: 5px;
   border-radius: 16px;
   z-index: 1;
