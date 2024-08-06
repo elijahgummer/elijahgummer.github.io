@@ -120,7 +120,7 @@ html {
 
 .line {
   fill: none;
-  stroke: white;
+  stroke: var(--text-color);
   stroke-linecap: round;
   stroke-linejoin: round;
   stroke-width: 3;
