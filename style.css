@@ -669,7 +669,7 @@ span a {
   margin-top: 1rem;
 }
 .footer .footer-social a i {
-  color: #ffffff;
+  color: var(--text-color);
   transition: color ease-in-out 0.5s;
 }
 .footer .footer-social a i:hover {
