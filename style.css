@@ -627,7 +627,7 @@ span a {
 }
 #contact .email,
 .location {
-  color: #ffffff;
+  color: var(--text-color);
   font-size: 17px;
   font-weight: 800;
   margin: 5px 0 5px 0;
