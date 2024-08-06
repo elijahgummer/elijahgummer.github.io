@@ -13,10 +13,10 @@
   --navbar-bg: #1e1e1e;
 }
 .light-theme {
-  --background-color: #121212;
-  --text-color: #ffffff;
+  --background-color: #f9f9f9;
+  --text-color: #000000;
   --text-second-color: #f9f9f9;
-  --navbar-bg: #1e1e1e;
+  --navbar-bg: #fff;
 }
 body {
   background-color: var(--background-color);
