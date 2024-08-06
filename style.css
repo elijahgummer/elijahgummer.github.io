@@ -658,7 +658,7 @@ span a {
   margin: 0 80px 0 80px;
 }
 .footer .header {
-  color: #ffffff;
+  color: var(--text-color);
   font-size: 17px;
 }
 .footer .footer-social {
