@@ -303,7 +303,7 @@ span a {
   border-right: 2px solid rgba(255, 255, 255, 0.5);
   font-family: "Mulish", sans-serif;
   font-weight: 600;
-  color: #ffffff;
+  color: var(--text-color);
 }
 #header .tech-stack-header {
   font-family: "Mulish", sans-serif;
