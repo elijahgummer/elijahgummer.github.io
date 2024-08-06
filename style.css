@@ -479,7 +479,7 @@ span a {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: #272727;
+  background-color: var(--card-bg);
   width: 700px;
   height: 400px;
   border-radius: 18px;
