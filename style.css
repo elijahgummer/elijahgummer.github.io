@@ -381,6 +381,7 @@ span a {
       linear-gradient(to bottom, rgba(128,128,128,0.07) 1px, transparent 1px);
   background-size: 24px 24px;
   z-index: -2;
+  overflow: hidden;
 }
 .dot-mask {
   position: absolute;
