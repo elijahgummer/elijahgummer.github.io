@@ -327,6 +327,10 @@
       });
     });
     //Light dark theme toggle js code
+    $('.appearance').click(function() {
+      $('body').toggleClass("dark");
+      $(this).toggleClass("switch");
+    });
     document.addEventListener('DOMContentLoaded', () => {
   const themeToggleButton = document.getElementById('theme-toggle');
   const theme = localStorage.getItem('theme') || 'dark';
