@@ -200,7 +200,7 @@ html {
 #header .head-text {
   font-size: 18px;
   font-family: "Mulish", sans-serif;
-  color: #f9f9f9;
+  color: var(--text-second-color);
   width: 100%;
   margin: 10px 0px 10px 0px;
 }
