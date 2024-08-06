@@ -185,7 +185,7 @@ html {
   font-size: 55px;
   font-weight: 800;
   margin: 15px;
-  color: #ffffff;
+  color: var(--text-color);
   margin-top: 25px;
   width: 100%;
 }
