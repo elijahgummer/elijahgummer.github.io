@@ -67,6 +67,9 @@ html {
 .menu-list li a:hover {
   color: #147efb;
 }
+/* DARK AND LIGHT THEME TOGGLE */
+
+/* HAMBURGER  */
 .hamburger {
   cursor: pointer;
 }
