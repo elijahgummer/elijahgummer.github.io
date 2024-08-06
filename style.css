@@ -12,10 +12,7 @@ body {
 html {
   scroll-behavior: smooth;
 }
-/* DEFAULT THEME VALUES */
-:root {
-  --background-color: #121212;
-}
+
 /* Custom scroll bar */
 ::-webkit-scrollbar {
   width: 10px;
