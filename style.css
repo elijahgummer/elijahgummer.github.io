@@ -5,8 +5,12 @@
   box-sizing: border-box;
   transition: all ease-in-out 0.2s;
 }
+/* DEFAULT THEME VALUES */
+:root {
+  --background-color: #121212;
+}
 body {
-  background-color: #121212;
+  background-color: var(--background-color)
   overflow-x: hidden;
 }
 html {
