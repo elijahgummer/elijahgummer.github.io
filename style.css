@@ -311,7 +311,7 @@ span a {
   font-weight: 600;
   margin-right: 40px;
   margin-left: 0;
-  color: #f9f9f9;
+  color: var(--text-second-color);
 }
 /* ABOUT PAGE STYLING */
 #about .container {
