@@ -333,7 +333,6 @@
     document.addEventListener('DOMContentLoaded', () => {
     const themeToggleButton = document.getElementById('theme-toggle');
     const savedTheme = localStorage.getItem('theme') || 'dark';
-
     // Apply the saved theme or default to dark
     if (savedTheme === 'light') {
       document.body.classList.add('light-theme');
