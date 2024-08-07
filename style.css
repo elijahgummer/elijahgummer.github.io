@@ -106,9 +106,11 @@ html {
   opacity: 1;
   transition: all 0.5s ease-in-out;
 }
-.appearance svg path.sun, .appearance svg path.moon:hover  {
+.appearance svg path.sun, 
+.appearance svg .moon:hover path {
   stroke: #147efb;
-} 
+}
+
 .appearance.switch svg path.sun {
   transform: scale(1) rotate(0);
   opacity: 1;
