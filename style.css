@@ -131,7 +131,6 @@ html {
   /* Define the transition for transforming the SVG */
   transition: transform 600ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
 .line {
   fill: none;
   stroke: var(--text-color);
