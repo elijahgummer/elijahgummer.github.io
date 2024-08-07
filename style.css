@@ -110,7 +110,6 @@ html {
 .appearance svg .moon:hover path {
   stroke: #147efb;
 }
-
 .appearance.switch svg path.sun {
   transform: scale(1) rotate(0);
   opacity: 1;
