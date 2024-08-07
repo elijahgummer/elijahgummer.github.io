@@ -99,11 +99,15 @@ html {
   stroke: var(--text-color);
   transform: scale(0.4) rotate(60deg);
   opacity: 0;
+  transition: all 0.5s ease-in-out;
 }
 .appearance svg path.moon {
   stroke: var(--text-color);
   opacity: 1;
 }
+.appearance svg path.sun, .appearance svg path.moon:hover  {
+  stroke: #147efb;
+} 
 .appearance.switch svg path.sun {
   transform: scale(1) rotate(0);
   opacity: 1;
