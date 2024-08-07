@@ -143,8 +143,7 @@ html {
 }
 .line-top-bottom {
   stroke-dasharray: 12 63;
-}
-
+} 
 .hamburger input:checked + svg {
   transform: rotate(-45deg);
 }
