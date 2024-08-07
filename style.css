@@ -125,7 +125,6 @@ html {
 .hamburger input {
   display: none;
 }
-
 .hamburger svg {
   /* The size of the SVG defines the overall size */
   height: 3em;
