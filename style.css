@@ -122,7 +122,6 @@ html {
 .hamburger {
   cursor: pointer;
 }
-
 .hamburger input {
   display: none;
 }
