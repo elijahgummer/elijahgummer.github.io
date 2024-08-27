@@ -294,7 +294,7 @@ span a {
 }
 /* Bounce on hover */
 .tech-image:hover {
-  transform: rotate(360deg) scale(1.1);
+  
 }
 #header .stack-container {
   display: flex;
