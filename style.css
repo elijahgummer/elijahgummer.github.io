@@ -783,9 +783,10 @@ span a {
     justify-content: center;
   }
   #header .waving {
+    display: inline-block;
     width: 3rem;
     height: 3rem;
-    animation: wave 4s infinite ease-in-out;
+    animation: wave 1s infinite ease-in-out;
   }
   /* Waving animation keyframes */
   @keyframes wave {
