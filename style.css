@@ -785,13 +785,12 @@ span a {
   #header .waving {
     width: 3rem;
     height: 3rem;
-    animation: wave 2s infinite ease-in-out;
-    transform-origin: 70% 70%; /* Adjust origin for a better waving effect */
+    animation: wave 4s infinite ease-in-out;
   }
   /* Waving animation keyframes */
   @keyframes wave {
     0% {
-      transform: rotate(0deg);
+      transform: rotate(0deg), scale(3);
     }
     25% {
       transform: rotate(15deg);
