@@ -5,6 +5,19 @@
   box-sizing: border-box;
   transition: all ease-in-out 0.2s;
 }
+/* Initially hide all sections */
+.hidden {
+  opacity: 0;
+  transform: translateY(50px); /* Start slightly lower */
+  transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+
+/* Class to apply when the section is in view */
+.visible {
+  opacity: 1;
+  transform: translateY(0); /* Slide to its original position */
+}
+
 /* DEFAULT THEME VALUES */
 :root {
   --background-color: #121212;
