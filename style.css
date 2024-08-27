@@ -8,12 +8,14 @@
 /* Initially hide all sections */
 .hidden {
   opacity: 0;
+  filter: blur(6px);
   transform: translateY(50px); /* Start slightly lower */
   transition: opacity 0.6s ease-out, transform 0.6s ease-out;
 }
 /* Class to apply when the section is in view */
 .visible {
   opacity: 1;
+  filter: blur(0px);
   transform: translateY(0); /* Slide to its original position */
 }
 /* DEFAULT THEME VALUES */
