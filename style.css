@@ -618,17 +618,17 @@ span a {
   transition: transform 0.3s ease, color 0.3s ease;
 }
 
-.project-card:hover .project-title {
+.card:hover .title {
   transform: scale(1.1);
   color: #9b59b6;
 }
 
-.project-description {
+.paragraph {
   font-size: 1rem;
   transition: transform 0.3s ease, color 0.3s ease;
 }
 
-.project-card:hover .project-description {
+.card:hover .paragraph {
   transform: scale(1.05);
   color: #ecf0f1;
 }
