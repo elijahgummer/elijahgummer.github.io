@@ -597,7 +597,7 @@ span a {
   color: #147efb;
 }
 
-.project-card {
+.card {
   background-color: #1a1a1a;
   color: #fff;
   padding: 20px;
@@ -607,12 +607,12 @@ span a {
   perspective: 1000px;
 }
 
-.project-card:hover {
+.card:hover {
   transform: translateY(-10px) rotateX(5deg) rotateY(5deg);
   box-shadow: 0 20px 30px rgba(0, 0, 0, 0.3);
 }
 
-.project-title {
+.title {
   font-size: 1.5rem;
   margin-bottom: 10px;
   transition: transform 0.3s ease, color 0.3s ease;
