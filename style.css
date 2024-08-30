@@ -316,7 +316,7 @@ span a {
   flex-direction: row;
   flex-wrap: wrap;
   padding-left: 0;
-  width: 95%;
+  width: 100%;
 }
 #header .stack-container p {
   margin-right: 1.5rem;
