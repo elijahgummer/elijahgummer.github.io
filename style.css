@@ -367,7 +367,7 @@ span a {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 40px 15px 40px 15px;
+  padding: 10px;
 }
 #about .image-container::before {
   content: "";
