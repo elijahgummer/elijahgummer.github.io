@@ -353,7 +353,7 @@ span a {
 }
 #about .image-container {
   position: relative;
-  width: 100%;
+  width: 90%;
   height: auto;
   display: flex;
   justify-content: center;
@@ -395,7 +395,7 @@ span a {
   }
 }
 #about .container .content-container .image-container .box .user-image {
-  width: 90%;
+  width: 100%;
   height: 90%;
   border-radius: 17px;
   position: relative;
