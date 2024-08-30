@@ -450,7 +450,7 @@ span a {
   height: 1800px;
   width: 1800px;
   margin-top: 1600px;
-  background-image: radial-gradient(#ff0000 1px, transparent 1px);
+  background-image: radial-gradient(#404347 1px, transparent 1px);
   background-size: 16px 16px;
   -webkit-mask-image: radial-gradient(
     circle,
