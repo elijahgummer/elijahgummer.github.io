@@ -550,6 +550,10 @@ span a {
   background: url(images/MoneyMagImage.webp);
   background-size: cover;
 }
+#projects .container .content-container .card .image-container .box.box3 {
+  background: url(images/wecare.png);
+  background-size: cover;
+}
 #projects .container .content-container .card .image-container .box.box4 {
   background: url(images/cvworth.png);
   background-size: cover;
