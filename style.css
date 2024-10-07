@@ -426,6 +426,64 @@ span a {
   margin: 45px 0 45px 20px;
 }
 /* CLIENTS STYLING */
+/* CLIENTS SECTION STYLING */
+#clients {
+  background-color: var(--container-color);
+  padding: 60px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#clients .container {
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+#clients .header {
+  font-family: "Poppins", sans-serif;
+  font-size: 25px;
+  font-weight: 800;
+  color: #147efb;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+#clients .client-logos {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+#clients .client-logo {
+  width: 150px;
+  height: auto;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.client-logo:hover {
+  transform: translateY(-10px) scale(1.1);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* For smaller screens */
+@media (max-width: 768px) {
+  #clients .container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #clients .client-logos {
+    gap: 20px;
+  }
+}
 /* PROJECTS STYLING */
 #projects {
   overflow: hidden;
