@@ -435,7 +435,6 @@ span a {
   justify-content: center;
   flex-direction: column;
 }
-
 #clients .container {
   width: 80%;
   display: flex;
@@ -443,7 +442,6 @@ span a {
   justify-content: space-between;
   flex-wrap: wrap;
 }
-
 #clients .header {
   font-family: "Poppins", sans-serif;
   font-size: 25px;
@@ -452,7 +450,6 @@ span a {
   margin-bottom: 40px;
   text-align: center;
 }
-
 #clients .client-logos {
   display: flex;
   align-items: center;
@@ -461,25 +458,21 @@ span a {
   flex-wrap: wrap;
   width: 100%;
 }
-
 #clients .client-logo {
   width: 150px;
   height: auto;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
-
 .client-logo:hover {
   transform: translateY(-10px) scale(1.1);
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
 }
-
 /* For smaller screens */
 @media (max-width: 768px) {
   #clients .container {
     flex-direction: column;
     align-items: center;
   }
-
   #clients .client-logos {
     gap: 20px;
   }
@@ -493,7 +486,6 @@ span a {
   padding: 40px 20px;
   gap: 30px;
 }
-
 .client-card {
   background-color: var(--card-bg);
   padding: 20px;
@@ -501,18 +493,15 @@ span a {
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
-
 .client-card:hover {
   transform: translateY(-10px);
   box-shadow: 0 0 25px rgba(0, 0, 0, 0.2);
 }
-
 .client-logo {
   width: 150px;
   height: auto;
   margin-bottom: 15px;
 }
-
 .review-link {
   display: inline-block;
   text-decoration: none;
@@ -521,11 +510,9 @@ span a {
   font-size: 16px;
   transition: color 0.3s ease;
 }
-
 .review-link:hover {
   color: var(--text-color);
 }
-
 /* PROJECTS STYLING */
 #projects {
   overflow: hidden;
