@@ -426,49 +426,6 @@ span a {
   margin: 45px 0 45px 20px;
 }
 /* CLIENTS STYLING */
-.client-section {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-  gap: 20px;
-  padding: 40px 20px;
-  align-items: center;
-  background-color: var(--container-color);
-}
-
-.client-card {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  background-color: var(--card-bg);
-  padding: 15px;
-  border-radius: 10px;
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
-  text-align: center;
-}
-
-.client-card:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
-}
-
-.client-logo {
-  width: 100px;
-  height: auto;
-  margin-bottom: 10px;
-}
-
-.review-link {
-  margin-top: 10px;
-  text-decoration: none;
-  color: var(--primary-color);
-  font-weight: 500;
-  font-size: 14px;
-  transition: color 0.2s ease;
-}
-
-.review-link:hover {
-  color: var(--text-color);
-}
 
 /* PROJECTS STYLING */
 #projects {
