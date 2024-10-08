@@ -425,6 +425,85 @@ span a {
 #about .content-box {
   margin: 45px 0 45px 20px;
 }
+/* CLIENTS STYLING */
+.client-section {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 30px;
+  padding: 60px 20px;
+  align-items: center;
+  background-color: var(--container-color);
+}
+
+.client-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: var(--card-bg);
+  padding: 25px;
+  border-radius: 16px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  text-align: center;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+}
+
+.client-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 6px 30px rgba(0, 0, 0, 0.1);
+}
+
+.client-logo {
+  width: 120px;
+  height: auto;
+  margin-bottom: 20px;
+  border-radius: 12px;
+  transition: transform 0.3s ease;
+}
+
+.client-logo:hover {
+  transform: scale(1.1);
+}
+
+.client-name {
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--text-color);
+  margin-bottom: 12px;
+}
+
+.client-review {
+  font-size: 15px;
+  font-style: italic;
+  color: var(--secondary-text-color);
+  margin-bottom: 20px;
+  max-width: 90%;
+}
+
+.client-links {
+  display: flex;
+  gap: 15px;
+}
+
+.review-link,
+.live-demo-link {
+  text-decoration: none;
+  color: #ffffff;
+  background-color: var(--primary-color);
+  padding: 10px 20px;
+  border-radius: 25px;
+  font-weight: 600;
+  font-size: 14px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  display: inline-flex;
+  align-items: center;
+}
+
+.review-link:hover,
+.live-demo-link:hover {
+  background-color: var(--highlight-color);
+  transform: translateY(-5px);
+}
+
 /* PROJECTS STYLING */
 #projects {
   overflow: hidden;
