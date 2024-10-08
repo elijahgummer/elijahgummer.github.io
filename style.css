@@ -425,83 +425,87 @@ span a {
 #about .content-box {
   margin: 45px 0 45px 20px;
 }
-/* CLIENTS STYLING */
 .client-section {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 30px;
-  padding: 60px 20px;
-  align-items: center;
-  background-color: var(--container-color);
+  display: flex;
+  justify-content: center;
+  padding: 60px;
+  background-color: #1a1a1a; /* Dark background */
 }
 
 .client-card {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  background-color: var(--card-bg);
-  padding: 25px;
-  border-radius: 16px;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  background: #2a2a2a;
+  padding: 30px;
+  border-radius: 20px;
   text-align: center;
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+  width: 300px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+  color: #f0f0f5;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .client-card:hover {
-  transform: translateY(-8px);
-  box-shadow: 0 6px 30px rgba(0, 0, 0, 0.1);
+  transform: translateY(-10px);
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.4);
 }
 
 .client-logo {
-  width: 120px;
+  width: 60px;
   height: auto;
-  margin-bottom: 20px;
-  border-radius: 12px;
-  transition: transform 0.3s ease;
-}
-
-.client-logo:hover {
-  transform: scale(1.1);
+  margin-bottom: 15px;
+  border-radius: 50%;
+  background-color: #fff;
+  padding: 8px;
 }
 
 .client-name {
   font-size: 18px;
-  font-weight: 700;
-  color: var(--text-color);
-  margin-bottom: 12px;
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #ffffff;
+}
+
+.client-timestamp {
+  font-size: 12px;
+  color: #999999;
+  margin-bottom: 15px;
+}
+
+.client-rating {
+  margin-bottom: 15px;
+}
+
+.client-rating i {
+  color: #f8e825; /* Star color */
 }
 
 .client-review {
-  font-size: 15px;
-  font-style: italic;
-  color: var(--secondary-text-color);
-  margin-bottom: 20px;
-  max-width: 90%;
-}
-
-.client-links {
-  display: flex;
-  gap: 15px;
-}
-
-.review-link,
-.live-demo-link {
-  text-decoration: none;
-  color: #ffffff;
-  background-color: var(--primary-color);
-  padding: 10px 20px;
-  border-radius: 25px;
-  font-weight: 600;
   font-size: 14px;
-  transition: background-color 0.3s ease, transform 0.3s ease;
-  display: inline-flex;
+  font-style: italic;
+  color: #b0b0b5;
+  margin-bottom: 20px;
+}
+
+.client-social {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
   align-items: center;
 }
 
-.review-link:hover,
-.live-demo-link:hover {
-  background-color: var(--highlight-color);
-  transform: translateY(-5px);
+.client-social i {
+  color: #ffffff;
+  font-size: 18px;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.client-social i:hover {
+  color: #1da1f2; /* Twitter blue */
+}
+
+.client-social span {
+  font-size: 14px;
+  color: #ffffff;
 }
 
 /* PROJECTS STYLING */
