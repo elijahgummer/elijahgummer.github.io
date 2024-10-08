@@ -508,6 +508,26 @@ span a {
   color: #ffffff;
 }
 
+.client-buttons {
+  margin-top: 15px;
+}
+
+.live-demo-btn {
+  text-decoration: none;
+  color: #ffffff;
+  background-color: #1da1f2; /* Light blue color */
+  padding: 10px 20px;
+  border-radius: 25px;
+  font-weight: 600;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  display: inline-block;
+}
+
+.live-demo-btn:hover {
+  background-color: #0d95e8;
+  transform: translateY(-5px);
+}
+
 /* PROJECTS STYLING */
 #projects {
   overflow: hidden;
