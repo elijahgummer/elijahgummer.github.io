@@ -425,6 +425,117 @@ span a {
 #about .content-box {
   margin: 45px 0 45px 20px;
 }
+/* Section Styling with Subtle Grid Background */
+.client-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 80px;
+  background-color: #121212; /* Dark background */
+  background-image: linear-gradient(rgba(255, 255, 255, 0.05) 1px, transparent 1px), 
+                    linear-gradient(90deg, rgba(255, 255, 255, 0.05) 1px, transparent 1px);
+  background-size: 40px 40px; /* Subtle grid pattern */
+}
+
+/* Card Styling */
+.client-card {
+  background: #1f1f1f;
+  padding: 40px;
+  border-radius: 25px;
+  width: 320px;
+  text-align: center;
+  box-shadow: 0 6px 25px rgba(0, 0, 0, 0.25);
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+  color: #eaeaea;
+  position: relative;
+  perspective: 1000px; /* Added for 3D rotation */
+}
+
+.client-card:hover {
+  transform: rotateY(10deg); /* Slight 3D rotation on hover */
+  box-shadow: 0 12px 35px rgba(0, 0, 0, 0.45);
+}
+
+.client-logo {
+  width: 70px;
+  height: 70px;
+  margin-bottom: 20px;
+  border-radius: 50%;
+  background-color: #fff;
+  padding: 10px;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+}
+
+.client-name {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #ffffff;
+}
+
+.client-rating {
+  margin-bottom: 20px;
+}
+
+.client-rating i {
+  color: #ffc107;
+  font-size: 18px;
+}
+
+.client-review {
+  font-size: 15px;
+  font-style: italic;
+  line-height: 1.6;
+  color: #b8b8b8;
+  margin-bottom: 30px;
+}
+
+.client-social {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.client-social i {
+  color: #ffffff;
+  font-size: 20px;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.client-social i:hover {
+  color: #e1306c;
+  transform: scale(1.2);
+}
+
+.client-buttons {
+  margin-top: 20px;
+}
+
+/* Innovative Live Demo Button Styling */
+.live-demo-btn {
+  text-decoration: none;
+  color: #ffffff;
+  background-color: #3498db; /* Lighter blue */
+  padding: 12px 28px;
+  border-radius: 30px;
+  font-weight: 600;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  position: relative;
+  overflow: hidden;
+}
+.live-demo-btn:hover {
+  background-color: #2980b9;
+  transform: translateY(-5px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.35);
+}
+
+/* Button Text */
+.live-demo-btn span {
+  position: relative;
+  z-index: 2;
+}
 
 /* PROJECTS STYLING */
 #projects {
