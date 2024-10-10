@@ -434,7 +434,7 @@ span a {
   background-color: #121212; /* Dark background */
   background-image: linear-gradient(rgba(255, 255, 255, 0.05) 1px, transparent 1px), 
                     linear-gradient(90deg, rgba(255, 255, 255, 0.05) 1px, transparent 1px);
-  background-size: 40px 40px; /* Subtle grid pattern */
+  background-size: 20px 20px; /* Smaller grid pattern */
 }
 /* Card Styling */
 .client-card {
