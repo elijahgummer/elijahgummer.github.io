@@ -508,13 +508,13 @@ span a {
   font-weight: 800;
   margin: 20px;
 }
-#clients .client-card p {
+#clients .card p {
   color: #90959a;
   font-size: 17px;
   font-weight: 500;
   margin: 10px;
 }
-#clients .client-card .tech-stack ul {
+#clients .card .tech-stack ul {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -522,19 +522,19 @@ span a {
   list-style: none;
   flex-wrap: wrap;
 }
-#clients .client-card .tech-stack ul li {
+#clients .card .tech-stack ul li {
   font-weight: 800;
   color: var(--text-second-color);
   margin: 10px;
 }
-#clients .card-container .client-card .image-container {
+#clients .card .client-card .image-container {
   display: flex;
   justify-content: center;
   align-items: center;
   width: 46%;
   margin: 20px;
 }
-#clients .card-container .client-card .image-container .box {
+#clients .card-container .card .image-container .box {
   width: 100%;
   height: 330px;
   background: var(--text-color);
