@@ -545,7 +545,7 @@ span a {
   width: 46%;
   margin: 20px;
 }
-#clients .card-container .card .image-container .box {
+#clients .card-container .client-card .image-container .box {
   width: 100%;
   height: 330px;
   background: var(--text-color);
