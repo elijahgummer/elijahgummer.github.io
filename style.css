@@ -514,16 +514,7 @@ span a {
   position: relative;
   overflow: hidden;
 }
-.live-demo-btn:hover {
-  background-color: #2980b9;
-  transform: translateY(-5px);
-  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.35);
-}
-/* Button Text */
-.live-demo-btn span {
-  position: relative;
-  z-index: 2;
-}
+
 /* PROJECTS STYLING */
 #projects {
   overflow: hidden;
