@@ -437,10 +437,6 @@ span a {
                     linear-gradient(90deg, rgba(255, 255, 255, 0.05) 1px, transparent 1px);
   background-size: 20px 20px; /* Smaller grid pattern */
 }
-.client-card:hover {
-  transform: rotateY(10deg); /* Slight 3D rotation on hover */
-  box-shadow: 0 12px 35px rgba(0, 0, 0, 0.45);
-}
 .client-logo {
   width: 70px;
   height: 70px;
