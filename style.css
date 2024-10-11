@@ -503,6 +503,9 @@ span a {
   margin: 40px;
 }
 #clients .card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   width: 70%;
   height: 400px;
 }
@@ -540,7 +543,7 @@ span a {
 }
 #clients .card-container .card .image-container .box {
   width: 100%;
-  height: 330px;
+  height: 130px;
   background: var(--text-color);
   background-position: top;
   border-radius: 18px;
