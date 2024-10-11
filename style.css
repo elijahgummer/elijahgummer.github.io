@@ -506,8 +506,6 @@ span a {
   align-items: center;
   justify-content: center;
   width: 100%;
-  padding: 20px;
-  margin: 40px;
 }
 #clients .card-container .client-card {
   display: flex;
