@@ -538,7 +538,7 @@ span a {
   color: var(--text-second-color);
   margin: 10px;
 }
-#clients .container .content-container .card .image-container {
+#clients .content-container .card .image-container {
   display: flex;
   justify-content: center;
   align-items: center;
