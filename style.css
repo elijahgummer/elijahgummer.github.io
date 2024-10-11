@@ -556,7 +556,7 @@ span a {
   margin: 20px;
   width: 60%;
 }
-#clients .container .card .teck-stack {
+#clients .card .teck-stack {
   display: flex;
   flex-direction: row;
   width: 50%;
