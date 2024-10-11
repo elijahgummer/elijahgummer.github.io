@@ -546,10 +546,10 @@ span a {
   background: url(images/locksmith.webp);
   background-size: cover;
 }
-#projects .container .content-container .card .image-container .box:hover {
+#clients .car-container .card .image-container .box:hover {
   background-position: bottom;
 }
-#projects .container .content-container .card .content {
+#clients .card-container .card .content {
   flex: 1;
   color: var(--text-color);
   text-align: center;
