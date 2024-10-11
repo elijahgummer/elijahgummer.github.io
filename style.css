@@ -501,19 +501,6 @@ span a {
 .client-buttons {
   margin-top: 20px;
 }
-/* Innovative Live Demo Button Styling */
-.live-demo-btn {
-  text-decoration: none;
-  color: #ffffff;
-  background-color: #3498db; /* Lighter blue */
-  padding: 12px 28px;
-  border-radius: 30px;
-  font-weight: 600;
-  transition: background-color 0.3s ease, transform 0.3s ease;
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
-  position: relative;
-  overflow: hidden;
-}
 
 /* PROJECTS STYLING */
 #projects {
