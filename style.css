@@ -501,7 +501,7 @@ span a {
 .client-buttons {
   margin-top: 20px;
 }
-#clients .container .content-container .card {
+#clients .content-container .card {
   display: flex;
   align-items: center;
   justify-content: space-between;
