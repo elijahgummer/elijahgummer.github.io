@@ -501,13 +501,13 @@ span a {
 .client-buttons {
   margin-top: 20px;
 }
-#clients .card-container {
+/* #clients .card-container {
   display: flex;
   align-items: center;
   justify-content: center;
   width: 100%;
-}
-#clients .card-container .client-card {
+} */
+#clients .card-container {
   display: flex;
   align-items: center;
   justify-content: space-between;
