@@ -509,9 +509,6 @@ span a {
   margin: 40px;
 }
 #clients .card {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
   width: 70%;
   height: 400px;
 }
