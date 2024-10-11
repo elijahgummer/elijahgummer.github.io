@@ -437,6 +437,9 @@ span a {
                     linear-gradient(90deg, rgba(255, 255, 255, 0.05) 1px, transparent 1px);
   background-size: 20px 20px; /* Smaller grid pattern */
 }
+.client-card {
+  width: 20%;
+}
 .client-logo {
   width: 70px;
   height: 70px;
