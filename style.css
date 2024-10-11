@@ -501,6 +501,18 @@ span a {
 .client-buttons {
   margin-top: 20px;
 }
+#clients .card-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: var(--card-bg);
+  width: 700px;
+  height: 400px;
+  border-radius: 18px;
+  box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.1);
+  padding: 20px;
+  margin: 40px;
+}
 #clients .card-container .client-card {
   display: flex;
   align-items: center;
