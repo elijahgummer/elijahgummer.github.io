@@ -502,6 +502,10 @@ span a {
   padding: 20px;
   margin: 40px;
 }
+#clients .card {
+  width: 70%;
+  height: 400px;
+}
 #clients .card h5 {
   color: var(--text-color);
   font-size: 20px;
