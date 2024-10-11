@@ -525,7 +525,7 @@ span a {
   font-weight: 500;
   margin: 10px;
 }
-#clients .card .tech-stack ul {
+#clients .client-card .tech-stack ul {
   display: flex;
   align-items: center;
   justify-content: center;
