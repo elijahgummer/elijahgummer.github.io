@@ -533,7 +533,7 @@ span a {
   list-style: none;
   flex-wrap: wrap;
 }
-#clients .card .tech-stack ul li {
+#clients .client-card .tech-stack ul li {
   font-weight: 800;
   color: var(--text-second-color);
   margin: 10px;
