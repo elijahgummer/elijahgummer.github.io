@@ -542,6 +542,10 @@ span a {
   border-radius: 18px;
   transition: ease-in-out 8s;
 }
+#clients .card-container .card .image-container .box.box1 {
+  background: url(images/locksmith.webp);
+  background-size: cover;
+}
 /* PROJECTS STYLING */
 #projects {
   overflow: hidden;
