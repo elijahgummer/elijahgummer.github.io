@@ -501,7 +501,7 @@ span a {
 .client-buttons {
   margin-top: 20px;
 }
-#projects .container .content-container .card {
+#clients .container .content-container .card {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -513,19 +513,19 @@ span a {
   padding: 20px;
   margin: 40px;
 }
-#projects .card h5 {
+#clients .card h5 {
   color: var(--text-color);
   font-size: 20px;
   font-weight: 800;
   margin: 20px;
 }
-#projects .card p {
+#clients .card p {
   color: #90959a;
   font-size: 17px;
   font-weight: 500;
   margin: 10px;
 }
-#projects .card .tech-stack ul {
+#clients .card .tech-stack ul {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -533,19 +533,19 @@ span a {
   list-style: none;
   flex-wrap: wrap;
 }
-#projects .card .tech-stack ul li {
+#clients .card .tech-stack ul li {
   font-weight: 800;
   color: var(--text-second-color);
   margin: 10px;
 }
-#projects .container .content-container .card .image-container {
+#clients .container .content-container .card .image-container {
   display: flex;
   justify-content: center;
   align-items: center;
   width: 46%;
   margin: 20px;
 }
-#projects .container .content-container .card .image-container .box {
+#clients .container .content-container .card .image-container .box {
   width: 100%;
   height: 330px;
   background: var(--text-color);
