@@ -561,7 +561,7 @@ span a {
   flex-direction: row;
   width: 50%;
 }
-#projects .container .card .demo-links ul {
+#clients .card .demo-links ul {
   display: flex;
   align-items: center;
   justify-content: center;
