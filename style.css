@@ -496,7 +496,7 @@ span a {
   width: 2px; 
   background-color: #90959a;
   height: auto; /* Adjust height */
-  min-height: 100px; /* Ensure it has a visible height */
+  min-height: 300px; /* Ensure it has a visible height */
   margin: 0 30px;
   opacity: 0.2;
 }
