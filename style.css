@@ -499,23 +499,19 @@ span a {
   padding: 10px;
   box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
 }
-
 .client-name {
   font-size: 20px;
   font-weight: bold;
   margin-bottom: 10px;
   color: #ffffff;
 }
-
 .client-rating {
   margin-bottom: 20px;
 }
-
 .client-rating i {
   color: #ffc107;
   font-size: 18px;
 }
-
 .client-review {
   text-align: center;
   font-size: 15px;
@@ -524,32 +520,26 @@ span a {
   color: #b8b8b8;
   margin-bottom: 30px;
 }
-
 .client-social {
   display: flex;
   justify-content: center;
   gap: 20px;
   margin-bottom: 20px;
 }
-
 .client-social i {
   color: #ffffff;
   font-size: 20px;
   transition: color 0.3s ease, transform 0.3s ease;
 }
-
 .client-social i:hover {
   color: #e1306c;
   transform: scale(1.2);
 }
-
-
 .image-container h5 {
   font-size: 22px;
   font-weight: 700;
   margin-bottom: 20px;
 }
-
 .image-container p {
   text-align: center;
   color: #90959a;
@@ -557,7 +547,6 @@ span a {
   font-weight: 500;
   margin: 20px;
 }
-
 .tech-stack ul {
   display: flex;
   flex-direction: row;
@@ -565,52 +554,43 @@ span a {
   flex-wrap: wrap;
   margin-bottom: 20px;
 }
-
 .tech-stack ul li {
   font-weight: 800;
   color: var(--text-second-color);
   margin: 10px;
 }
-
 .demo-links ul {
   display: flex;
   flex-direction: row;
   list-style: none;
 }
-
 .demo-links ul li {
   font-weight: 500;
   color: var(--text-second-color);
   margin-right: 20px;
   font-size: 17px;
 }
-
 .demo-links ul li i {
   margin-right: 10px;
   font-size: 18px;
 }
-
 .demo-links ul li:hover {
   color: #147efb;
 }
-
 /* Responsive Styling */
 @media (max-width: 768px) {
   .card {
       flex-direction: column;
       padding: 20px;
   }
-
   .image-container {
       width: 100%;
       margin-bottom: 20px;
   }
-
   .separator-line {
       display: none;
   }
 }
-
 /* PROJECTS STYLING */
 #projects {
   overflow: hidden;
