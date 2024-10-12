@@ -559,7 +559,7 @@ span a {
   border-radius: 18px;
   transition: ease-in-out 8s;
 }
-#clients .card-container .card .image-container .box.box1 {
+#clients .card-container .card .image-container .box.boxn {
   background: url(images/walktimeui.png);
   background-size: cover;
 }
