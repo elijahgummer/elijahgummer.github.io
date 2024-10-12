@@ -512,6 +512,10 @@ span a {
   margin: 40px;
 }
 #clients .card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
   width: 60%;
   height: 400px;
 }
