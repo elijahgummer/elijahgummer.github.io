@@ -500,6 +500,14 @@ span a {
   margin: 0 1px;
   opacity: 0.2;
 }
+#clients .client-intro {
+  font-size: 18px;          /* A good readable size */
+  color: var(--text-color); /* Matches the text color for consistency */
+  margin-bottom: 30px;      /* Adds space below the paragraph */
+  text-align: center;       /* Center aligns the text */
+  font-weight: 500;         /* Slightly bolder for emphasis */
+  line-height: 1.6;         /* Improves readability */
+}
 .client-card {
   display: flex;
   align-items: center;
