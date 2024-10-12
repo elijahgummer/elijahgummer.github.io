@@ -493,9 +493,10 @@ span a {
   background-position: bottom;
 }
 #clients .separator-line {
-  width: 2px;
+  width: 2px; 
   background-color: #90959a;
-  height: 100%;
+  height: auto; /* Adjust height */
+  min-height: 100px; /* Ensure it has a visible height */
   margin: 0 30px;
   opacity: 0.2;
 }
@@ -594,18 +595,13 @@ span a {
 .demo-links ul li:hover {
   color: #147efb;
 }
-/* Responsive Styling */
 @media (max-width: 768px) {
   .card {
       flex-direction: column;
       padding: 20px;
   }
-  .image-container {
-      width: 100%;
-      margin-bottom: 20px;
-  }
   .separator-line {
-      display: none;
+      display: none; /* You already have this, so it's hidden on smaller screens */
   }
 }
 /* PROJECTS STYLING */
