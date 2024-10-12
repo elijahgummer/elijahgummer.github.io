@@ -467,6 +467,7 @@ span a {
   font-size: 18px;
 }
 .client-review {
+  text-align: center;
   font-size: 15px;
   font-style: italic;
   line-height: 1.6;
