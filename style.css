@@ -456,7 +456,7 @@ span a {
   margin: 40px;
 }
 
-.image-container {
+#clients .image-container {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -465,7 +465,7 @@ span a {
   margin-right: 40px;
 }
 
-.box {
+#clients .card-container .card .box {
   width: 100%;
   height: 300px;
   background: var(--text-color);
@@ -474,21 +474,21 @@ span a {
   transition: ease-in-out 8s;
 }
 
-.box.boxn {
+#clients .card-container .card .box.boxn {
   background: url(images/walktimeui.png);
   background-size: cover;
 }
 
-.box:hover {
+#clients .card-container .card .box:hover {
   background-position: bottom;
 }
 
-.separator-line {
+#clients .separator-line {
   width: 2px;
   background-color: #90959a;
   height: 100%;
   margin: 0 30px;
-  opacity: 0.5;
+  opacity: 0.2;
 }
 
 .client-card {
