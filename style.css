@@ -449,6 +449,12 @@ span a {
   justify-content: center;
   width: 100%;
 }
+#clients .header {
+  color: #147efb;
+  font-size: 17px;
+  margin: 20px;
+  font-weight: 800;
+}
 #clients .card {
   display: flex;
   align-items: center;
