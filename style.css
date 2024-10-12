@@ -596,6 +596,9 @@ span a {
   margin-right: 20px;
   font-size: 17px;
 }
+.demo-links ul a {
+  text-decoration: none;
+}
 .demo-links ul li i {
   margin-right: 10px;
   font-size: 18px;
