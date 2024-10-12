@@ -501,6 +501,7 @@ span a {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  flex-direction: row;
   background-color: var(--card-bg);
   width: 100%;
   height: 400px;
