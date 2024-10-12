@@ -497,7 +497,7 @@ span a {
   background-color: #90959a;
   height: auto; /* Adjust height */
   min-height: 300px; /* Ensure it has a visible height */
-  margin: 0 30px;
+  margin: 0 1px;
   opacity: 0.2;
 }
 .client-card {
