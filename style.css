@@ -535,10 +535,11 @@ span a {
   color: #e1306c;
   transform: scale(1.2);
 }
-.image-container h5 {
+#clients .image-container h5 {
   font-size: 22px;
   font-weight: 700;
   margin-bottom: 20px;
+  color: var(--text-color);
 }
 .image-container p {
   text-align: center;
