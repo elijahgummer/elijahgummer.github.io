@@ -436,13 +436,11 @@ span a {
   background-size: 20px 20px;
   width: 100%;
 }
-
 #clients .card-container {
   display: flex;
   justify-content: center;
   width: 100%;
 }
-
 #clients .card {
   display: flex;
   align-items: center;
@@ -455,7 +453,6 @@ span a {
   padding: 40px;
   margin: 40px;
 }
-
 #clients .image-container {
   display: flex;
   justify-content: center;
@@ -464,7 +461,6 @@ span a {
   width: 50%;
   margin-right: 40px;
 }
-
 #clients .card-container .card .box {
   width: 100%;
   height: 300px;
@@ -473,16 +469,13 @@ span a {
   background-position: top;
   transition: ease-in-out 8s;
 }
-
 #clients .card-container .card .box.boxn {
   background: url(images/walktimeui.png);
   background-size: cover;
 }
-
 #clients .card-container .card .box:hover {
   background-position: bottom;
 }
-
 #clients .separator-line {
   width: 2px;
   background-color: #90959a;
@@ -490,7 +483,6 @@ span a {
   margin: 0 30px;
   opacity: 0.2;
 }
-
 .client-card {
   display: flex;
   align-items: center;
@@ -498,7 +490,6 @@ span a {
   flex-direction: column;
   width: 30%;
 }
-
 .client-logo {
   width: 70px;
   height: 70px;
