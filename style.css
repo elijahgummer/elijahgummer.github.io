@@ -505,7 +505,7 @@ span a {
   color: var(--text-color); /* Matches the text color for consistency */
   margin-bottom: 30px;      /* Adds space below the paragraph */
   text-align: center;       /* Center aligns the text */
-  font-weight: 500;         /* Slightly bolder for emphasis */
+  font-weight: 700;         /* Slightly bolder for emphasis */
   line-height: 1.6;         /* Improves readability */
 }
 .client-card {
