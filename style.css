@@ -554,7 +554,7 @@ span a {
   transition: ease-in-out 8s;
 }
 #clients .card-container .card .image-container .box.box1 {
-  background: url(images/locksmith.webp);
+  background: url(images/walktimeui.png);
   background-size: cover;
 }
 #clients .car-container .card .image-container .box:hover {
