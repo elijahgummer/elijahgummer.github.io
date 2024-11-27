@@ -748,6 +748,10 @@ span a {
   background: url(images/cvworth.png);
   background-size: cover;
 }
+#projects .container .content-container .card .image-container .box.box5 {
+  background: url(images/pepsi.png);
+  background-size: cover;
+}
 #projects .container .content-container .card .image-container .box:hover {
   background-position: bottom;
 }
