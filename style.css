@@ -615,6 +615,16 @@ span a {
       display: none; /* You already have this, so it's hidden on smaller screens */
   }
 }
+@media (max-width: 768px) {
+  .card {
+    width: 250px;
+  }
+}
+@media (max-width: 480px) {
+  .card {
+    width: 200px;
+  }
+}
 /* PROJECTS STYLING */
 #projects {
   overflow: hidden;
