@@ -489,6 +489,10 @@ span a {
   background: url(images/walktimeui.png);
   background-size: cover;
 }
+#clients .card-container .card .box.boxz {
+  background: url(images/carwash.png);
+  background-size: cover;
+}
 #clients .card-container .card .box:hover {
   background-position: bottom;
 }
