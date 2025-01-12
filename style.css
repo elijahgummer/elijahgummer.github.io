@@ -654,7 +654,10 @@ span a {
 .btn:hover {
   background-color: #483d8b;
 }
-
+.card.active {
+  transform: translateX(0);
+  opacity: 1;
+}
 #projects {
   overflow: hidden;
 }
