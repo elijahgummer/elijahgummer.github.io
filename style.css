@@ -655,18 +655,19 @@ span a {
   background-color: #483d8b;
 }
 .card-container {
-  display: flex;
+  display: none; /* Hide by default */
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  transform: translateX(100%);
   opacity: 0;
-  transition: transform 0.5s ease, opacity 0.5s ease;
+  transition: opacity 0.5s ease;
 }
+
 .card-container.active {
-  transform: translateX(0);
+  display: flex; /* Show when active */
   opacity: 1;
 }
+
 #projects {
   overflow: hidden;
 }
