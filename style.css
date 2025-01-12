@@ -654,7 +654,16 @@ span a {
 .btn:hover {
   background-color: #483d8b;
 }
-.card.active {
+.card-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  transform: translateX(100%);
+  opacity: 0;
+  transition: transform 0.5s ease, opacity 0.5s ease;
+}
+.card-container.active {
   transform: translateX(0);
   opacity: 1;
 }
