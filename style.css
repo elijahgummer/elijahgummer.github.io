@@ -466,10 +466,10 @@ span a {
   justify-content: space-between;
   flex-direction: row;
   background-color: var(--card-bg);
-  width: 800px;
+  width: 1000px;
   border-radius: 18px;
   box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.1);
-  padding: 40px;
+  padding: 40px 80px;
   margin: 40px;
 }
 #clients .image-container {
