@@ -654,7 +654,7 @@ span a {
 .btn:hover {
   background-color: #483d8b;
 }
-.card-container {
+.card-containerz {
   display: none; /* Hide by default */
   align-items: center;
   justify-content: center;
@@ -663,7 +663,7 @@ span a {
   transition: opacity 0.5s ease;
 }
 
-.card-container.active {
+.card-containerz.active {
   display: flex; /* Show when active */
   opacity: 1;
 }
