@@ -827,7 +827,7 @@ span a {
   align-items: center;
   justify-content: space-between;
   background-color: var(--card-bg);
-  width: 1000px;
+  width: 90%;
   height: 400px;
   border-radius: 18px;
   box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.1);
@@ -902,6 +902,51 @@ span a {
 }
 #projects .container .card .demo-links ul li:hover {
   color: #147efb;
+}
+
+/* Responsive styles */
+
+/* Larger screens */
+@media (min-width: 1200px) {
+  #projects .container .content-container {
+    flex-direction: row;
+  }
+
+  #projects .container .content-container .card {
+    width: 45%;
+    height: auto;
+    margin: 20px;
+  }
+}
+
+/* Smaller laptop screens */
+@media (max-width: 1199px) and (min-width: 768px) {
+  #projects .container .content-container {
+    flex-direction: row;
+  }
+
+  #projects .container .content-container .card {
+    width: 90%;
+    height: auto;
+    margin: 20px;
+  }
+}
+
+/* Mobile phones */
+@media (max-width: 467px) {
+
+  #projects .container .content-container .card-containerz .card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--card-bg);
+    width: 90%;
+    height: auto;
+    border-radius: 18px;
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    margin: 40px;
+  }
 }
 /* CONTACT AREA STYLING */
 #contact .container {
