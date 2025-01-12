@@ -34,12 +34,12 @@
           <i class="fa-solid fa-bars"></i>
         </div>
       </nav>
-    <div id="header">
-      <div class="grid"></div>
-      <div class="container">
-        <div class="content">
-          <div class="landing-main">
-            <div class="landing-text">
+      <div id="header">
+        <div class="grid"></div>
+        <div class="container">
+          <div class="content">
+            <div class="landing-main">
+              <div class="landing-text">
                 <h1 class="header-text">
                   Full-Stack
                   <div class="content-align">
@@ -47,60 +47,50 @@
                     <img class="waving" src="images/hand.webp" alt="hand" loading="lazy"/>
                   </div>
                 </h1>
-              <p class="head-text">
-                Hi, I'm Elijah. A passionate Full-Stack Developer based
-                in Brisbane, Australia. 📍
-              </p>
-
-              <span class="iconsContact">
-                <a class="twitter" href="https://twitter.com/codedesigneli"
-                  ><i class="fa-brands fa-x-twitter"></i></a>
-                <a class="github" href="https://github.com/elijahgummer"
-                  ><i class="fa-brands fa-github"></i
-                ></a>
-                <a class="github" href="https://www.linkedin.com/in/elijah-gummer-4168172a9/">
-                <i class="fa-brands fa-linkedin-in"></i>
-              </a>
-              </span>
+                <p class="head-text">
+                  Hi, I'm Elijah. A passionate Full-Stack Developer based
+                  in Brisbane, Australia. 📍
+                </p>
+      
+                <span class="iconsContact">
+                  <a class="twitter" href="https://twitter.com/codedesigneli"><i class="fa-brands fa-x-twitter"></i></a>
+                  <a class="github" href="https://github.com/elijahgummer"><i class="fa-brands fa-github"></i></a>
+                  <a class="github" href="https://www.linkedin.com/in/elijah-gummer-4168172a9/"><i class="fa-brands fa-linkedin-in"></i></a>
+                </span>
+              </div>
+              <div class="image-container">
+                <img class="profile-pic" width="430px" height="430px" src="images/pic.webp" alt="profile-pic" />
+              </div>
             </div>
-            <div class="image-container">
-              <img class="profile-pic" width="430px" height="430px" src="images/pic.webp" alt="profile-pic" />
+            <div class="stack-container">
+              <p class="tech-stack-header">Tech Stack</p>
+              <ul class="tech-list">
+                <li>
+                  <img class="tech-image" src="images/htmlCss.png" alt="HTML & CSS" loading="lazy" data-tech="HTML & CSS"/>
+                </li>
+                <li>
+                  <img class="tech-image" width="110px" height="45px" src="images/react.webp" alt="React" loading="lazy" data-tech="React"/>
+                </li>
+                <li>
+                  <img class="tech-image" width="110px" height="45px" src="images/NextType.png" alt="Next.js & TypeScript" loading="lazy" data-tech="Next.js & TypeScript"/>
+                </li>
+                <li>
+                  <img class="tech-image" width="110px" height="45px" src="images/phpSQL.png" alt="PHP & SQL" loading="lazy" data-tech="PHP & SQL"/>
+                </li>
+                <li>
+                  <img class="tech-image" width="110px" height="45px" src="images/boot.png" alt="Bootstrap & Tailwind CSS" loading="lazy" data-tech="Bootstrap & Tailwind CSS"/>
+                </li>
+                <li>
+                  <img class="tech-image" width="110px" height="45px" src="images/python.png" alt="Python & Django" loading="lazy" data-tech="Python & Django"/>
+                </li>
+                <li>
+                  <img class="tech-image" width="110px" height="45px" src="images/fig.png" alt="Figma & Windows Terminal" loading="lazy" data-tech="Figma & Windows Terminal"/>
+                </li>
+              </ul>
             </div>
-          </div>
-          <div class="stack-container">
-            <p class="tech-stack-header">Tech Stack</p>
-            <ul class="tech-list">
-              <li>
-                <img
-                  class="tech-image"
-                  src="images/htmlCss.png"
-                  alt="html&css"
-                  loading="lazy"
-                />
-              </li>
-              <li>
-                <img class="tech-image" width="110px" height="45px" src="images/react.webp" alt="js&react" loading="lazy"/>
-              </li>
-              <li>
-                <img class="tech-image" width="110px" height="45px" src="images/NextType.png" alt="Nextjs&Typescript" loading="lazy"/>
-              </li>
-              <li>
-                <img class="tech-image" width="110px" height="45px" src="images/phpSQL.png" alt="php&sql" loading="lazy"/>
-              </li>
-              <li>
-                <img class="tech-image" width="110px" height="45px" src="images/boot.png" alt="bootstrap&tailwindcss" loading="lazy"/>
-              </li>
-              <li>
-                <img class="tech-image" width="110px" height="45px" src="images/python.png" alt="python&django" loading="lazy"/>
-              </li>
-              <li>
-                <img class="tech-image" width="110px" height="45px" src="images/fig.png" alt="figma&windows-terminal" loading="lazy"/>
-              </li>
-            </ul>
           </div>
         </div>
       </div>
-    </div>
     <section id="about" class="content-section hidden">
       <div class="container">
         <div class="content-container">
@@ -553,6 +543,17 @@ button2.addEventListener('click', () => {
   cards2.classList.add('active');
   cards1.classList.remove('active');
 });
+document.addEventListener('DOMContentLoaded', function() {
+    const techImages = document.querySelectorAll('.tech-image');
+
+    techImages.forEach(image => {
+      const techStack = image.getAttribute('data-tech');
+      const tooltip = document.createElement('div');
+      tooltip.className = 'tooltip';
+      tooltip.innerText = techStack;
+      image.appendChild(tooltip);
+    });
+  });
 
 </script>
   </body>
