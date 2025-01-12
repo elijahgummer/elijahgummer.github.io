@@ -201,7 +201,7 @@ html {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  width: 95%;
+  width: 1000px;
 }
 #header .header-text {
   font-size: 55px;
