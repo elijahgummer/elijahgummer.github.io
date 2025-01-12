@@ -349,11 +349,11 @@ span a {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 80%;
+  width: 60%;
 }
 #about .image-container {
   position: relative;
-  width: 90%;
+  width: 500px;
   height: auto;
   display: flex;
   justify-content: center;
