@@ -630,6 +630,31 @@ span a {
   }
 }
 /* PROJECTS STYLING */
+
+.button-group {
+  margin-bottom: 20px;
+}
+
+.btn {
+  background-color: #6a5acd;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  margin: 0 10px;
+  transition: background-color 0.3s ease;
+}
+
+.btn.active {
+  background-color: #4b0082;
+}
+
+.btn:hover {
+  background-color: #483d8b;
+}
+
 #projects {
   overflow: hidden;
 }
