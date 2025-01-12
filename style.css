@@ -1117,6 +1117,7 @@ span a {
   #about .image-container {
     margin: 45px;
     height: auto;
+    width: 90%;
   }
   #about .box {
     padding: 25px 15px 25px 15px;
