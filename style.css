@@ -349,7 +349,7 @@ span a {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 60%;
+  width: 70%;
 }
 #about .image-container {
   position: relative;
@@ -362,6 +362,9 @@ span a {
   background-color: var(--card-bg);
   border-radius: 20px;
   overflow: hidden;
+}
+#about .content-box {
+  width: 700px;
 }
 #about .box {
   display: flex;
