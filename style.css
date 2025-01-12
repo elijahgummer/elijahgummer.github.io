@@ -648,13 +648,20 @@ span a {
     flex-direction: column;
     width: 90%;
     padding: 0;
-    margin: 0;
   }
+  
   #clients .card .image-container {
     display: flex;
     flex-direction: column;
     width: 90%;
-    margin: 0;
+    margin: 20px 0;
+    padding: 0;
+  }
+  #clients .card .client-card {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: 40px 0;
     padding: 0;
   }
   #clients .card .image-container h5 {
