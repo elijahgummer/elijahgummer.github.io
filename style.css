@@ -786,6 +786,25 @@ span a {
   border-radius: 18px;
   transition: ease-in-out 8s;
 }
+#projects .container .content-container .card-containerz .card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: var(--card-bg);
+  width: 1000px;
+  height: 400px;
+  border-radius: 18px;
+  box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.1);
+  padding: 20px;
+  margin: 40px;
+}
+#projects .container .content-container .content-containerz .card .image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 76%;
+  margin: 20px;
+}
 #projects .container .content-container .card .image-container .box.box1 {
   background: url(images/locksmith.webp);
   background-size: cover;
