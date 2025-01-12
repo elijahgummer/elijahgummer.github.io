@@ -628,10 +628,37 @@ span a {
   }
 }
 @media (max-width: 480px) {
-  #clients .card {
+  #clients {
+    padding: 0;
+    margin: 0;
+  }
+  #clients ,.client-section {
+    padding: 0;
+    margin: 0;
+  }
+  #clients .card-container {
     display: flex;
     flex-direction: column;
     width: 100%;
+    padding: 0;
+    margin: 0;
+  }
+  #clients .card {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    padding: 0;
+    margin: 0;
+  }
+  #clients .card .image-container {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: 0;
+    padding: 0;
+  }
+  #clients .card .image-container h5 {
+    margin-top: 15px;
   }
 }
 /* PROJECTS STYLING */
