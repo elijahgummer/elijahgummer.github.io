@@ -909,7 +909,7 @@ span a {
 /* Larger screens */
 @media (min-width: 1200px) {
   #projects .container .content-container {
-    flex-direction: row;
+    flex-direction: column;
   }
 
   #projects .container .content-container .card {
@@ -1237,6 +1237,12 @@ span a {
   #projects .card-container {
     display: flex;
     width: 90%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  #projects .container .content-container {
+    display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
