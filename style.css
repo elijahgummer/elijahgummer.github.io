@@ -981,6 +981,9 @@ span a {
     height: auto;
     overflow: hidden;
   }
+  #header .content {
+    width: 100%;
+  }
   #header .landing-main {
     flex-direction: column-reverse;
   }
