@@ -528,6 +528,26 @@
   });
 });
 
+const button1 = document.getElementById('button1');
+const button2 = document.getElementById('button2');
+const cards1 = document.getElementById('cards1');
+const cards2 = document.getElementById('cards2');
+
+button1.addEventListener('click', () => {
+  button1.classList.add('active');
+  button2.classList.remove('active');
+  cards1.classList.add('active');
+  cards2.classList.remove('active');
+});
+
+button2.addEventListener('click', () => {
+  button2.classList.add('active');
+  button1.classList.remove('active');
+  cards2.classList.add('active');
+  cards1.classList.remove('active');
+});
+
+
 </script>
   </body>
 </html>
