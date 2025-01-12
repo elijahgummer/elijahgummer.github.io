@@ -233,7 +233,7 @@
             <button id="button1" class="btn active">Show Cards 1</button>
             <button id="button2" class="btn">Show Cards 2</button>
           </div>
-          <div class="card-containerz" id="cards1">
+          <div class="card-containerz active" id="cards1">
             <div class="card">
               <div class="image-container">
                 <div class="box box1"></div>
@@ -530,12 +530,12 @@
     observer.observe(section);
   });
 });
-
 const button1 = document.getElementById('button1');
 const button2 = document.getElementById('button2');
 const cards1 = document.getElementById('cards1');
 const cards2 = document.getElementById('cards2');
 
+// Button 1 should be active by default, so cards1 is shown initially.
 button1.addEventListener('click', () => {
   button1.classList.add('active');
   button2.classList.remove('active');
@@ -549,7 +549,6 @@ button2.addEventListener('click', () => {
   cards2.classList.add('active');
   cards1.classList.remove('active');
 });
-
 
 </script>
   </body>

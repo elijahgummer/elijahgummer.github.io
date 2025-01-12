@@ -651,6 +651,7 @@ span a {
   background-color: #4b0082;
 }
 
+
 .btn:hover {
   background-color: #483d8b;
 }
@@ -664,10 +665,10 @@ span a {
 }
 
 .card-containerz.active {
-  display: flex; /* Show when active */
+  display: flex;
+  transform: translateX(0);
   opacity: 1;
 }
-
 #projects {
   overflow: hidden;
 }
