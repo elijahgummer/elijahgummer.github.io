@@ -1353,11 +1353,11 @@ span a {
 }
 .price .section-header h2{
   color: #fff;
-  margin: 50px;
+  margin-bottom: 50px;
 }
 .price .section-header p{
   color: #fff;
-  margin: 50px;
+  margin-top: 50px;
 }
 .price .row {
   padding: 0 15px;
