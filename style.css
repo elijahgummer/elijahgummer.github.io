@@ -1357,6 +1357,8 @@ span a {
   margin-bottom: 50px;
 }
 .price .section-header p{
+  font-size: 20px;
+  font-family: 'Poppins', sans-serif;
   color: #fff;
   margin-top: 50px;
 }
