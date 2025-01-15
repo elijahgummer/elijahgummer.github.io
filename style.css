@@ -1297,243 +1297,31 @@ span a {
 }
 
 /* BUTTONS STYLING */
-
-
-/* Root variables */
-:root {
-  --scene-background: #101217;
-  --main-hue: 259deg;
-  --btn-radius: 14px;
-  --padding: 8px;
-}
-
-*,*:before,*:after {
-  box-sizing: border-box;
-}
-
-
-[popovertarget="btn-popover"] {
-  anchor-name: --anchor-el;
-}
-
-/* Reset and base styles */
-html,
-body {
-  padding: 0;
-  margin: 0;
-  height: 100%;
-  width: 100%;
-  overflow: hidden;
-}
-
-body {
-  background: var(--scene-background);
-  display: grid;
-  place-items: center;
-  font-family: sans-serif;
-}
-
-/* Custom properties */
-@property --glow {
-  syntax: "<percentage>";
-  inherits: false;
-  initial-value: 60%;
-}
-
-@property --tsy {
-  syntax: "<length>";
-  inherits: false;
-  initial-value: 0px;
-}
-
-@property --light {
-  syntax: "<percentage>";
-  inherits: false;
-  initial-value: 75%;
-}
-
-@property --inner-light {
-  syntax: "<percentage>";
-  inherits: false;
-  initial-value: 54%;
-}
-
-@property --icon-rotation {
-  syntax: "<angle>";
-  inherits: false;
-  initial-value: 0deg;
-}
-
-/* Button styles */
-.container {
-  --btn-inner-background: hsl(var(--main-hue) 89% var(--inner-light));
-}
-button {
-  --btn-background: linear-gradient(
-    to bottom right,
-    hsl(var(--main-hue) 100% var(--light)),
-    hsl(var(--main-hue) 100% 69%),
-    hsl(var(--main-hue) 100% var(--light))
-  );
-  --btn-shadow: color-mix(
-    in hsl,
-    hsl(var(--main-hue) 96% var(--glow)),
-    black 60%
-  );
-  --icon-color: color-mix(
-    in hsl,
-    var(--btn-inner-background),
-    color-mix(in hsl, blue, white 80%) 65%
-  );
-
-  anchor-name: --anchor-el;
-  display: flex;
-  border-radius: var(--btn-radius);
-  border: 0;
-  color: white;
-  overflow: hidden;
-  padding: 1px;
-  background: var(--btn-background);
-  box-shadow: 0 3px 5px black, 0 8px 24px var(--btn-shadow);
+.booking-btn {
+  background-color: #007bff; /* Solid blue background */
+  color: #fff; /* White text */
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  border-radius: 8px;
   cursor: pointer;
-  -webkit-font-smoothing: antialiased;
-  transform: translateY(var(--tsy));
-
-  transition: --glow 0.2s ease, --tsy 0.2s ease, --light 0.2s ease,
-    --icon-rotation 0.2s ease, box-shadow 0.2s ease;
+  transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
 }
 
-button svg {
-  color: var(--icon-color);
+.booking-btn:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+  box-shadow: 0 6px 15px rgba(0, 123, 255, 0.3); /* Enhanced shadow on hover */
+  transform: translateY(-3px);
 }
 
-button .btn-inner {
-  background: var(--btn-inner-background);
-  height: 48px;
-  border-radius: var(--btn-radius);
-  display: flex;
-  box-shadow: inset 0 0 12px hsl(var(--main-hue) 100% 65%);
+.booking-btn:active {
+  transform: translateY(1px);
 }
 
-button .btn-content {
-  display: flex;
-  align-items: center;
-  padding-inline: 18px;
-  font-size: 18px;
-}
-
-button .btn-content svg {
-  width: 18px;
-  margin-right: 10px;
-}
-
-button .btn-caret {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-left: 1px solid rgb(255 255 255 / 10%);
-  width: 36px;
-  height: 100%;
-}
-
-button .btn-caret svg {
-  width: 18px;
-  height: 18px;
-  rotate: var(--icon-rotation);
-  transition: rotate 0.2s ease;
-}
-
-button:hover {
-  --glow: 80%;
-  --light: 90%;
-  --inner-light: 80%;
-  box-shadow: 0 2px 2px black, 0 14px 32px var(--btn-shadow);
-}
-
-button:hover .btn-inner {
-  background: hsl(var(--main-hue) 89% var(--inner-light));
-}
-
-button:active {
-  --tsy: 2px;
-  --glow: 70%;
-  --light: 80%;
-  --inner-light: 70%;
-  box-shadow: 0 1px 1px black, 0 8px 16px var(--btn-shadow);
-}
-
-button:active .btn-caret svg,
-.container:has(:popover-open) .btn-caret svg {
-  rotate: 180deg;
-}
-
-.positioned-notice {
-  color: white;
-  padding: 0;
-  border: 1px solid hsl(var(--main-hue) 100% 69%);
-  background: linear-gradient(
-    to bottom right,
-    hsl(var(--main-hue) 100% var(--light)),
-    hsl(var(--main-hue) 100% 49%),
-    hsl(var(--main-hue) 100% var(--light))
-  );
-  border-radius: var(--btn-radius);
- position: absolute;
-  max-height: calc(anchor-size(block) * 2.5);
-  max-width: 300px;
-  overflow: auto;
-  width: max-content;
-  margin: 0 0 0 var(--padding);
-  
-  position-anchor: --anchor-el;
-  inset: auto;
-  left: anchor(--anchor-el right);
-  top: anchor(--anchor-el top);
-  position-try-fallbacks: --bottom;
-}
-
-@position-try --bottom {
-  margin: var(--padding) 0 0 0;
-  
-  left: anchor(--anchor-el left);
-  top: anchor(--anchor-el bottom);
-}
-
-.positioned-notice a {
-  color: inherit;
-  text-decoration: none;
-  border-bottom: 1px dashed white;
-}
-
-.positioned-notice .inner-notice {
-  position: relative;
-  overflow: hidden;
-  border-radius: var(--btn-radius);
-  background: var(--btn-inner-background);
-  width: 300px;
-}
-
-.positioned-notice .inner-notice ul {
-  margin: 0;
-  padding: 0;
-  display: flex;
-  flex-direction: column;
-}
-
-.positioned-notice .inner-notice ul li {
-  text-overflow: ellipsis;
-  width: 100%;
-  overflow: hidden;
-  white-space: nowrap;
-  padding: 1em;
-  border-bottom: 1px solid rgb(255 255 255 / 10%);
-}
-
-/* Popover animation */
-@starting-style {
-  [popover]:popover-open {
-    opacity: 0;
-    transform: scale(0);
-    filter: blur(12px)
-  }
+.booking-btn:focus {
+  outline: none;
+  box-shadow: 0 0 0 4px rgba(0, 123, 255, 0.5); /* Focus ring */
 }
