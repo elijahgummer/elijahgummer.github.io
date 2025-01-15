@@ -1295,3 +1295,177 @@ span a {
     margin: 15px;
   }
 }
+
+/* BUTTONS STYLING */
+
+/* Button */
+@keyframes btn-glow {
+  0% {
+    background-position: 0 100%;
+  }
+  100% {
+    background-position: 0 300%;
+  }
+}
+.btn {
+  position: relative;
+  display: inline-block;
+  border-radius: 999em;
+  color: white;
+  font: 500 20px/1 "Chivo Mono", monospace;
+  letter-spacing: 0.075em;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.btn__inner {
+  padding: 1px;
+  position: relative;
+  z-index: 2;
+  display: block;
+  overflow: hidden;
+  border-radius: inherit;
+}
+.btn__inner:before {
+  position: absolute;
+  inset: 4px;
+  z-index: 1;
+  display: block;
+  animation: btn-glow 5s infinite linear;
+  background: linear-gradient(20deg, #00f8f1, #ffbd1e20 16.5%, #fe848f 33%, #fe848f20 49.5%, #00f8f1 66%, #00f8f160 85.5%, #ffbd1e 100%) 0 100%/100% 200%;
+  border-radius: inherit;
+  filter: blur(5px);
+  mix-blend-mode: overlay;
+  opacity: 0;
+  transition: opacity 0.2s linear 0.1s;
+  content: "";
+}
+.btn__label {
+  position: relative;
+  display: block;
+  overflow: hidden;
+  padding: 0.95em 2em 0.9em;
+  border-radius: inherit;
+  color: transparent;
+  white-space: nowrap;
+}
+.btn__label:before, .btn__label:after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  display: block;
+  padding: inherit;
+  width: 100%;
+  height: 100%;
+  color: white;
+  white-space: nowrap;
+  transition: transform 0.3s cubic-bezier(1, 0, 0, 1) 0s;
+}
+.btn__label:before {
+  transform: translate3d(0, 0, 0);
+  content: attr(data-label);
+}
+.btn__label:after {
+  transform: translate3d(0, -100%, 0);
+  content: attr(data-hover);
+}
+.btn__label__background {
+  position: absolute;
+  inset: -100px;
+  display: block;
+  background: #093740 url("https://assets.codepen.io/5817405/noise_2.png");
+  background-blend-mode: overlay;
+  animation: noise-background 0.5s steps(1) infinite;
+}
+.btn__background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  display: block;
+  width: 100%;
+  height: 100%;
+  border-radius: inherit;
+}
+.btn__background:before, .btn__background:after {
+  position: absolute;
+  inset: 0;
+  display: block;
+  border-radius: inherit;
+  content: "";
+}
+.btn__background:before {
+  background: white;
+  transition: background 0.3s linear 0s;
+}
+.btn__background:after {
+  animation: btn-glow 5s infinite linear;
+  background: linear-gradient(-20deg, #00f8f1, #00f8f120 16.5%, #00f8f1 33%, #00f8f110 49.5%, #00f8f1 66%, #00f8f100 85.5%, #00f8f1 100%) 0 100%/100% 200%;
+  filter: blur(5px);
+  opacity: 0;
+  transition: opacity 0s linear 0s;
+}
+.btn:hover .btn__background:before {
+  background: #4cede1;
+  transition: background 0.07s linear;
+}
+.btn:hover .btn__background:after {
+  opacity: 1;
+  transition: opacity 0.4s cubic-bezier(0.55, 0.085, 0.68, 0.53) 0s;
+}
+.btn:hover .btn__inner:before {
+  opacity: 0.5;
+}
+.btn:hover .btn__label:before, .btn:hover .btn__label:after {
+  transition-duration: 0.6s;
+  transition-timing-function: cubic-bezier(1, -0.6, 0, 1.6);
+}
+.btn:hover .btn__label:before {
+  transform: translate3d(0, 100%, 0);
+}
+.btn:hover .btn__label:after {
+  transform: translate3d(0, 0, 0);
+}
+
+/* Background */
+@keyframes noise-background {
+  0% {
+    transform: translate3d(0, 0, 0);
+  }
+  20% {
+    transform: translate3d(50px, 30px, 0);
+  }
+  40% {
+    transform: translate3d(10px, 50px, 0);
+  }
+  60% {
+    transform: translate3d(30px, 20px, 0);
+  }
+  80% {
+    transform: translate3d(50px, 0, 0);
+  }
+  100% {
+    transform: translate3d(100px, 0, 0);
+  }
+}
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  color: white;
+  font: 300 15px/1 "Chivo Mono", monospace;
+  letter-spacing: 0.075em;
+}
+body:before {
+  position: absolute;
+  inset: -100px;
+  z-index: -1;
+  display: block;
+  background: #093740 url("https://assets.codepen.io/5817405/noise_2.png");
+  background-blend-mode: overlay;
+  animation: noise-background 0.5s steps(1) infinite;
+  content: "";
+}
