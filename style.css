@@ -1307,7 +1307,7 @@ span a {
     background-position: 0 300%;
   }
 }
-.btn {
+.bton {
   position: relative;
   display: inline-block;
   border-radius: 999em;
@@ -1405,25 +1405,25 @@ span a {
   opacity: 0;
   transition: opacity 0s linear 0s;
 }
-.btn:hover .btn__background:before {
+.bton:hover .btn__background:before {
   background: #4cede1;
   transition: background 0.07s linear;
 }
-.btn:hover .btn__background:after {
+.bton:hover .btn__background:after {
   opacity: 1;
   transition: opacity 0.4s cubic-bezier(0.55, 0.085, 0.68, 0.53) 0s;
 }
-.btn:hover .btn__inner:before {
+.bton:hover .btn__inner:before {
   opacity: 0.5;
 }
-.btn:hover .btn__label:before, .btn:hover .btn__label:after {
+.bton:hover .btn__label:before, .bton:hover .btn__label:after {
   transition-duration: 0.6s;
   transition-timing-function: cubic-bezier(1, -0.6, 0, 1.6);
 }
-.btn:hover .btn__label:before {
+.bton:hover .btn__label:before {
   transform: translate3d(0, 100%, 0);
 }
-.btn:hover .btn__label:after {
+.bton:hover .btn__label:after {
   transform: translate3d(0, 0, 0);
 }
 
@@ -1448,24 +1448,4 @@ span a {
     transform: translate3d(100px, 0, 0);
   }
 }
-body {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 100vw;
-  height: 100vh;
-  overflow: hidden;
-  color: white;
-  font: 300 15px/1 "Chivo Mono", monospace;
-  letter-spacing: 0.075em;
-}
-body:before {
-  position: absolute;
-  inset: -100px;
-  z-index: -1;
-  display: block;
-  background: #093740 url("https://assets.codepen.io/5817405/noise_2.png");
-  background-blend-mode: overlay;
-  animation: noise-background 0.5s steps(1) infinite;
-  content: "";
-}
+
