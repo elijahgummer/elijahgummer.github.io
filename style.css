@@ -1326,3 +1326,62 @@ span a {
 .booking-btn:active {
   transform: translateY(1px);
 }
+
+/* Booking page styles */
+#booking .container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+
+#booking h1 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+#booking p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.service {
+  margin-bottom: 40px;
+}
+
+.service h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.service p {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.service ul {
+  list-style: none;
+  padding: 0;
+}
+
+.service ul li {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.special-offer {
+  background-color: #f8f9fa;
+  padding: 20px;
+  border-radius: 8px;
+  margin-top: 40px;
+}
+
+.special-offer h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.special-offer p {
+  font-size: 16px;
+}
+
