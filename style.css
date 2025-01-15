@@ -1329,7 +1329,7 @@ span a {
 
 /* Booking page styles */
 #booking .container {
-  max-width: 800px;
+  max-width: 1100px;
   margin: 0 auto;
   padding: 20px;
   text-align: center;
@@ -1338,50 +1338,135 @@ span a {
 #booking h1 {
   font-size: 32px;
   margin-bottom: 20px;
+  color: #333;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
 }
 
 #booking p {
   font-size: 18px;
   margin-bottom: 20px;
+  color: #666;
+  font-family: "Poppins", sans-serif;
 }
 
-.service {
-  margin-bottom: 40px;
+.card {
+  background: #ffffff;
+  border-radius: 20px;
+  max-width: 360px;
+  width: 100%;
+  margin: 0 auto;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-.service h2 {
+.card__header {
+  padding: 24px;
+}
+
+.card__footer {
+  padding: 24px;
+  text-align: center;
+}
+
+.card__body {
+  padding: 24px;
+}
+
+.card-row {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.card-row .card-col {
+  flex: 1 1 360px;
+  padding: 12px;
+}
+
+.card__price {
+  font-size: 40px;
+  font-weight: 600;
+  color: #000000;
+  display: flex;
+  align-items: center;
+}
+
+.card__title {
   font-size: 24px;
-  margin-bottom: 10px;
+  font-weight: 600;
+  color: #007bff;
+  padding-bottom: 24px;
 }
 
-.service p {
+.card__txt {
   font-size: 16px;
-  margin-bottom: 10px;
+  line-height: 26px;
+  color: #000000;
+  max-width: 254px;
+  padding-bottom: 24px;
 }
 
-.service ul {
-  list-style: none;
-  padding: 0;
+.card__checklist {
+  padding-top: 24px;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
 }
 
-.service ul li {
+.card__checklist li {
+  position: relative;
+  padding-left: 32px;
+  padding-bottom: 16px;
   font-size: 16px;
-  margin-bottom: 5px;
+  line-height: 24px;
+}
+
+.card__checklist li:last-child {
+  padding-bottom: 0;
+}
+
+.card__checklist li:before {
+  content: "\2713"; /* Checkmark symbol */
+  font-size: 24px;
+  line-height: 1;
+  position: absolute;
+  left: 0;
+  top: 0;
+  color: #007bff;
+}
+
+.card.card--blue .card__title,
+.card.card--blue .card__checklist li:before {
+  color: #007bff;
+}
+
+.card.card--green .card__title,
+.card.card--green .card__checklist li:before {
+  color: #08A02A;
+}
+
+.card.card--pink .card__title,
+.card.card--pink .card__checklist li:before {
+  color: #E50757;
 }
 
 .special-offer {
-  background-color: #f8f9fa;
+  background-color: #e9ecef;
   padding: 20px;
   border-radius: 8px;
   margin-top: 40px;
+  text-align: left;
 }
 
 .special-offer h2 {
   font-size: 24px;
   margin-bottom: 10px;
+  color: #007bff;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
 }
 
 .special-offer p {
   font-size: 16px;
+  color: #333;
+  font-family: "Poppins", sans-serif;
 }
-
