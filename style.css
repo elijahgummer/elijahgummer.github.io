@@ -1332,10 +1332,6 @@ span a {
 /********* Pricing CSS *********/
 /*******************************/
 .price {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: row;
   position: relative;
   width: 100%;
   padding: 45px 0 15px 0;
