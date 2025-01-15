@@ -1312,16 +1312,12 @@ span a {
 }
 
 .booking-btn:hover {
+  box-shadow: 0 0 0 4px rgba(0, 123, 255, 0.5); /* Focus ring */
+  outline: none;
   background-color: #0056b3; /* Darker blue on hover */
-  box-shadow: 0 6px 15px rgba(0, 123, 255, 0.3); /* Enhanced shadow on hover */
   transform: translateY(-3px);
 }
 
 .booking-btn:active {
   transform: translateY(1px);
-}
-
-.booking-btn:focus {
-  outline: none;
-  box-shadow: 0 0 0 4px rgba(0, 123, 255, 0.5); /* Focus ring */
 }
