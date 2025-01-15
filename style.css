@@ -1351,6 +1351,14 @@ span a {
   width: 100%;
   padding: 120px 0 15px 0;
 }
+.price .section-header h2{
+  color: #fff;
+  margin: 50px;
+}
+.price .section-header p{
+  color: #fff;
+  margin: 50px;
+}
 
 .price .row {
   padding: 0 15px;
