@@ -1073,7 +1073,7 @@ span a {
   display: block;
   font-size: 14px;
   margin-bottom: 5px;
-  color: #333;
+  color: var(--text-color);
   font-family: "Poppins", sans-serif;
 }
 .contact-form input,
