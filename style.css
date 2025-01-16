@@ -981,10 +981,10 @@ span a {
 }
 #contact .content-container {
   display: flex;
-  justify-content: center;
-  align-items: flex-start;
-  flex-direction: column;
-  width: 80%;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  width: 90%;
 }
 #contact .header {
   color: #147efb;
@@ -1038,6 +1038,13 @@ span a {
   font-weight: 500;
 }
 #contact .contact-box {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-direction: column;
+  width: 60%;
+}
+#contact .contact-info {
   display: flex;
   align-items: center;
   justify-content: center;
