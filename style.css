@@ -26,6 +26,7 @@
   --container-color: #000000;
   --navbar-bg: #1e1e1e;
   --card-bg: #1e1e1e;
+  --card-bg2: #383232;
 }
 .light-theme {
   --background-color: #f9f9f9;
@@ -34,6 +35,7 @@
   --container-color: #ffffff;
   --navbar-bg: #fff;
   --card-bg: #eaeaea;
+  --card-bg2: #dad6d6;
 }
 body {
   background-color: var(--background-color);
