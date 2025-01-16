@@ -1056,6 +1056,7 @@ span a {
   justify-content: center;
   flex-direction: row;
 }
+/* CONTACT FORM STYLING */
 .contact-form {
   flex: 1;
   background: #f8f9fa;
