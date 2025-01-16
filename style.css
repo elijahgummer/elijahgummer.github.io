@@ -91,6 +91,7 @@ html {
   align-items: center;
 }
 .navbar .menu-list {
+  margin: 0;
   display: inline-flex;
 }
 .menu-list li {
