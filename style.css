@@ -1387,7 +1387,11 @@ span a {
   z-index: 1;
 }
 .price .price-header {
+  margin-top: 20px;
   padding: 45px 0 30px 0;
+}
+.price .price-header strong {
+  margin-top: 15px;
 }
 .price .price-header h3 {
   font-size: 20px;
