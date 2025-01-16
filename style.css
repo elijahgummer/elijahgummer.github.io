@@ -1005,6 +1005,12 @@ span a {
   align-items: center;
   margin: 20px;
 }
+#contact .contact-area {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30%;
+}
 #contact .content-text {
   margin: 10px;
 }
