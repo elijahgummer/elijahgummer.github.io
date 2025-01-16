@@ -444,7 +444,7 @@
           </div>
           <div class="contact-area">
             <div class="contact-form">
-              <form action="submit_form.php" method="post">
+              <form  action="https://formsubmit.co/elijahgummer5@gmail.com" method="POST">
                 <div class="form-group">
                   <label for="name">Name</label>
                   <input type="text" id="name" name="name" required>
@@ -457,7 +457,12 @@
                   <label for="message">Message</label>
                   <textarea id="message" name="message" rows="5" required></textarea>
                 </div>
-                <button type="submit" class="submit-btn">Send Message</button>
+                <input type="hidden" name="_next" value="https://elijahgummer.github.io/thanks.html">
+                <input type="hidden" name="_subject" value="New Contact Request.">
+                <input type="hidden" name="_cc" value="motiv8xnow@gmail.com">
+                <input type="hidden" name="_autoresponse" value="Thank you for contacting me! I will get back to you as soon as possible.">
+                <input type="hidden" name="_template" value="table">
+                <button class="booking-btn" type="submit" >Send Message</button>
               </form>
             </div>
           </div>
