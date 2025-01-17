@@ -1148,6 +1148,30 @@ span a {
 .contact-form .submit-btn:active {
   transform: translateY(1px);
 }
+
+/* Responsive Design */
+@media (min-width: 768px) {
+  #contact .container .content-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  #contact .container .content-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  .contact-info {
+    margin-bottom: 0;
+    text-align: left;
+  }
+
+  .contact-form {
+    width: 50%;
+  }
+}
 /* FOOTER STYLING */
 .footer {
   background-color: #1e1e1e;
@@ -1399,6 +1423,7 @@ span a {
     align-items: center;
     justify-content: center;
     text-align: center;
+    flex-direction: row;
     height: auto;
   }
   #contact .contact-box {
