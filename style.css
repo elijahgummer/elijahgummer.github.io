@@ -1063,12 +1063,10 @@ span a {
   flex-direction: row;
 }
 /* CONTACT SECTION STYLING */
-
 .contact-info {
   flex: 1;
   margin-right: 20px;
 }
-
 .contact-info .header {
   font-size: 28px;
   margin-bottom: 20px;
@@ -1076,7 +1074,6 @@ span a {
   font-family: "Poppins", sans-serif;
   font-weight: 700;
 }
-
 .contact-info p,
 .contact-info .email,
 .contact-info .email-name {
@@ -1084,7 +1081,6 @@ span a {
   color: #ccc;
   font-family: "Poppins", sans-serif;
 }
-
 .contact-form {
   flex: 1;
   background: #2c2c2c; /* Darker background for the form */
@@ -1092,11 +1088,9 @@ span a {
   border-radius: 12px;
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
 }
-
 .contact-form .form-group {
   margin-bottom: 20px;
 }
-
 .contact-form label {
   display: block;
   font-size: 14px;
@@ -1105,7 +1099,6 @@ span a {
   font-family: "Poppins", sans-serif;
   font-weight: 600;
 }
-
 .contact-form input,
 .contact-form textarea {
   width: 100%;
@@ -1118,14 +1111,12 @@ span a {
   font-family: "Poppins", sans-serif;
   transition: border-color 0.3s ease, box-shadow 0.3s ease;
 }
-
 .contact-form input:focus,
 .contact-form textarea:focus {
   border-color: #007bff;
   box-shadow: 0 0 8px rgba(0, 123, 255, 0.2);
   outline: none;
 }
-
 .contact-form .submit-btn {
   background-color: #007bff;
   color: #fff;
@@ -1138,7 +1129,6 @@ span a {
   cursor: pointer;
   transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
 }
-
 .contact-form .submit-btn:hover {
   background-color: #0056b3;
   box-shadow: 0 6px 15px rgba(0, 123, 255, 0.3);
