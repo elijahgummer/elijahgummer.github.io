@@ -1144,11 +1144,9 @@ span a {
   box-shadow: 0 6px 15px rgba(0, 123, 255, 0.3);
   transform: translateY(-3px);
 }
-
 .contact-form .submit-btn:active {
   transform: translateY(1px);
 }
-
 /* Responsive Design */
 @media (min-width: 768px) {
   #contact .container .content-container {
@@ -1162,12 +1160,10 @@ span a {
     justify-content: space-between;
     flex-wrap: wrap;
   }
-
   .contact-info {
     margin-bottom: 0;
     text-align: left;
   }
-
   .contact-form {
     width: 50%;
   }
