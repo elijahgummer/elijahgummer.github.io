@@ -1138,24 +1138,46 @@ span a {
   transform: translateY(1px);
 }
 /* Responsive Design */
-@media (min-width: 768px) {
-  #contact .container .content-container {
+@media (max-width: 768px) {
+  #contact .container {
+    height: auto;
     display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    align-items: center;
+    justify-content: center;
   }
   #contact .container .content-container {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     flex-wrap: wrap;
+    margin: 0;
   }
   .contact-info {
     margin-bottom: 0;
     text-align: left;
   }
+  #contact .contact-area{
+    width: 100%;
+  }
   .contact-form {
-    width: 50%;
+    width: 100%;
+  }
+  #contact .contact-info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+    margin: 0;
+  }
+  #contact .contact-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    margin: 0;
   }
 }
 /* FOOTER STYLING */
