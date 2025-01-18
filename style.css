@@ -956,7 +956,7 @@ span a {
 }
 
 /* Mobile phones */
-@media (max-width: 467px) {
+@media (max-width: 867px) {
 
   #projects .container .content-container .card-containerz .card {
     display: flex;
